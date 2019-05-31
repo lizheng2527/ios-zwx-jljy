@@ -23,7 +23,6 @@
 #import "TYHProjectController.h"
 #import "TYHClassAttendanceController.h"
 
-#import "QCSchoolMainController.h"
 
 
 #import "AppModelArrayHandler.h"
@@ -228,8 +227,8 @@
     else if([code isEqualToString:@"青蚕学堂"])
     {
         
-        QCSchoolMainController *qcView = [QCSchoolMainController new];
-        [self.navigationController pushViewController:qcView animated:YES];
+//        QCSchoolMainController *qcView = [QCSchoolMainController new];
+//        [self.navigationController pushViewController:qcView animated:YES];
         
 
 //        NSURL * myURL_APP_A = [NSURL URLWithString:@"PushXLTWithZWX://"];

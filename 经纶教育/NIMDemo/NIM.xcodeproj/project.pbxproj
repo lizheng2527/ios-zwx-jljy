@@ -192,83 +192,11 @@
 		E48D25C91EBB118500078BCD /* NTESAVNotifier.m in Sources */ = {isa = PBXBuildFile; fileRef = E48D25C81EBB118500078BCD /* NTESAVNotifier.m */; };
 		E49D53C11B451C7400A869AC /* NSData+NTES.m in Sources */ = {isa = PBXBuildFile; fileRef = E49D53C01B451C7400A869AC /* NSData+NTES.m */; };
 		E4ED12DD1B6B07EA00316496 /* message.wav in Resources */ = {isa = PBXBuildFile; fileRef = E4ED12DC1B6B07EA00316496 /* message.wav */; };
-		EE0BDBCB2091C22400AAD516 /* qcsStudyAnalyticsMainController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE0BDBCA2091C22400AAD516 /* qcsStudyAnalyticsMainController.m */; };
-		EE0BDBCF2091C27700AAD516 /* qcsStudyAnalyticsInsideController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE0BDBCD2091C27700AAD516 /* qcsStudyAnalyticsInsideController.m */; };
-		EE0BDBD02091C27700AAD516 /* qcsStudyAnalyticsInsideController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE0BDBCE2091C27700AAD516 /* qcsStudyAnalyticsInsideController.xib */; };
-		EE0BDBD42091D28F00AAD516 /* qcsMenuTableController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE0BDBD22091D28F00AAD516 /* qcsMenuTableController.m */; };
-		EE0BDBD52091D28F00AAD516 /* qcsMenuTableController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE0BDBD32091D28F00AAD516 /* qcsMenuTableController.xib */; };
-		EE0BDBE12091D2CB00AAD516 /* CWDrawerTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = EE0BDBD82091D2CB00AAD516 /* CWDrawerTransition.m */; };
-		EE0BDBE22091D2CB00AAD516 /* CWInteractiveTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = EE0BDBDA2091D2CB00AAD516 /* CWInteractiveTransition.m */; };
-		EE0BDBE32091D2CB00AAD516 /* CWLateralSlideAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = EE0BDBDC2091D2CB00AAD516 /* CWLateralSlideAnimator.m */; };
-		EE0BDBE42091D2CB00AAD516 /* CWLateralSlideConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = EE0BDBDE2091D2CB00AAD516 /* CWLateralSlideConfiguration.m */; };
-		EE0BDBE52091D2CB00AAD516 /* UIViewController+CWLateralSlide.m in Sources */ = {isa = PBXBuildFile; fileRef = EE0BDBE02091D2CB00AAD516 /* UIViewController+CWLateralSlide.m */; };
 		EE147906201084340099CC02 /* TYHClassAttendanceController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE147905201084340099CC02 /* TYHClassAttendanceController.m */; };
-		EE22FCB020B2B322005E26A1 /* HAVPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = EE22FCA520B2B321005E26A1 /* HAVPlayer.m */; };
-		EE22FCB120B2B322005E26A1 /* HProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = EE22FCA720B2B321005E26A1 /* HProgressView.m */; };
-		EE22FCB220B2B322005E26A1 /* HVideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE22FCA920B2B321005E26A1 /* HVideoViewController.m */; };
-		EE22FCB320B2B322005E26A1 /* HVideoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE22FCAA20B2B321005E26A1 /* HVideoViewController.xib */; };
-		EE22FCB420B2B322005E26A1 /* btn_video_flip_camera@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE22FCAC20B2B321005E26A1 /* btn_video_flip_camera@2x.png */; };
-		EE22FCBC20B2BF60005E26A1 /* qcsHomeworkModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EE22FCBB20B2BF60005E26A1 /* qcsHomeworkModel.m */; };
-		EE22FCE320B2D1B7005E26A1 /* libmp3lame.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EE22FCC020B2D1B6005E26A1 /* libmp3lame.a */; };
-		EE22FCE420B2D1B7005E26A1 /* LGMessageModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EE22FCC320B2D1B6005E26A1 /* LGMessageModel.m */; };
-		EE22FCE520B2D1B7005E26A1 /* LGAudioPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = EE22FCC620B2D1B6005E26A1 /* LGAudioPlayer.m */; };
-		EE22FCE620B2D1B7005E26A1 /* LGSoundRecorder.m in Sources */ = {isa = PBXBuildFile; fileRef = EE22FCC920B2D1B6005E26A1 /* LGSoundRecorder.m */; };
-		EE22FCE720B2D1B7005E26A1 /* toast_cancelsend@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE22FCCB20B2D1B6005E26A1 /* toast_cancelsend@2x.png */; };
-		EE22FCE820B2D1B7005E26A1 /* toast_microphone@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE22FCCC20B2D1B6005E26A1 /* toast_microphone@2x.png */; };
-		EE22FCE920B2D1B7005E26A1 /* toast_timeshort@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE22FCCD20B2D1B6005E26A1 /* toast_timeshort@2x.png */; };
-		EE22FCEA20B2D1B7005E26A1 /* toast_vol_1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE22FCCE20B2D1B6005E26A1 /* toast_vol_1@2x.png */; };
-		EE22FCEB20B2D1B7005E26A1 /* toast_vol_2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE22FCCF20B2D1B6005E26A1 /* toast_vol_2@2x.png */; };
-		EE22FCEC20B2D1B7005E26A1 /* toast_vol_3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE22FCD020B2D1B6005E26A1 /* toast_vol_3@2x.png */; };
-		EE22FCED20B2D1B7005E26A1 /* toast_vol_4@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE22FCD120B2D1B6005E26A1 /* toast_vol_4@2x.png */; };
-		EE22FCEE20B2D1B7005E26A1 /* toast_vol_5@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE22FCD220B2D1B6005E26A1 /* toast_vol_5@2x.png */; };
-		EE22FCEF20B2D1B7005E26A1 /* toast_vol_6@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE22FCD320B2D1B6005E26A1 /* toast_vol_6@2x.png */; };
-		EE22FCF020B2D1B7005E26A1 /* toast_vol_7@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE22FCD420B2D1B6005E26A1 /* toast_vol_7@2x.png */; };
-		EE22FCF120B2D1B7005E26A1 /* amrFileCodec.m in Sources */ = {isa = PBXBuildFile; fileRef = EE22FCD820B2D1B6005E26A1 /* amrFileCodec.m */; };
-		EE22FCF220B2D1B7005E26A1 /* libopencore-amrnb.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EE22FCE120B2D1B6005E26A1 /* libopencore-amrnb.a */; };
-		EE22FCF320B2D1B7005E26A1 /* libopencore-amrwb.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EE22FCE220B2D1B6005E26A1 /* libopencore-amrwb.a */; };
-		EE22FCFB20B31995005E26A1 /* MBProgressHU_DDD.m in Sources */ = {isa = PBXBuildFile; fileRef = EE22FCFA20B31995005E26A1 /* MBProgressHU_DDD.m */; };
-		EE22FCFF20B401A1005E26A1 /* qcsHomeworkMainCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EE22FCFD20B401A1005E26A1 /* qcsHomeworkMainCell.m */; };
-		EE22FD0020B401A1005E26A1 /* qcsHomeworkMainCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE22FCFE20B401A1005E26A1 /* qcsHomeworkMainCell.xib */; };
 		EE23D8282272EDA900BCFB66 /* hexColor.m in Sources */ = {isa = PBXBuildFile; fileRef = EE23D8272272EDA900BCFB66 /* hexColor.m */; };
 		EE2D0354200311CE00142A7F /* appSource.plist in Resources */ = {isa = PBXBuildFile; fileRef = EE2D0351200311CD00142A7F /* appSource.plist */; };
 		EE2D0355200311CE00142A7F /* OptinalButton.plist in Resources */ = {isa = PBXBuildFile; fileRef = EE2D0352200311CD00142A7F /* OptinalButton.plist */; };
 		EE2D0356200311CE00142A7F /* OptinalTitle.plist in Resources */ = {isa = PBXBuildFile; fileRef = EE2D0353200311CE00142A7F /* OptinalTitle.plist */; };
-		EE2E0024207B651A0062AB74 /* LYEmptyBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = EE2E001C207B651A0062AB74 /* LYEmptyBaseView.m */; };
-		EE2E0025207B651A0062AB74 /* LYEmptyView.m in Sources */ = {isa = PBXBuildFile; fileRef = EE2E001E207B651A0062AB74 /* LYEmptyView.m */; };
-		EE2E0026207B651A0062AB74 /* UIScrollView+Empty.m in Sources */ = {isa = PBXBuildFile; fileRef = EE2E0021207B651A0062AB74 /* UIScrollView+Empty.m */; };
-		EE2E0027207B651A0062AB74 /* UIView+LYExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = EE2E0023207B651A0062AB74 /* UIView+LYExtension.m */; };
-		EE2E002B207B6C3C0062AB74 /* qcsClassStasticInsideXTTJCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EE2E0029207B6C3C0062AB74 /* qcsClassStasticInsideXTTJCell.m */; };
-		EE2E002C207B6C3C0062AB74 /* qcsClassStasticInsideXTTJCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE2E002A207B6C3C0062AB74 /* qcsClassStasticInsideXTTJCell.xib */; };
-		EE2E002F207B6EBB0062AB74 /* qcsClassStasticInsideXTTJHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = EE2E002E207B6EBB0062AB74 /* qcsClassStasticInsideXTTJHeader.m */; };
-		EE2E0033207B782A0062AB74 /* qcsClassDetailInsideSXBJCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EE2E0031207B782A0062AB74 /* qcsClassDetailInsideSXBJCell.m */; };
-		EE2E0034207B782A0062AB74 /* qcsClassDetailInsideSXBJCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE2E0032207B782A0062AB74 /* qcsClassDetailInsideSXBJCell.xib */; };
-		EE2E0038207B78950062AB74 /* qcsClassDetailInsideXZTCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EE2E0036207B78950062AB74 /* qcsClassDetailInsideXZTCell.m */; };
-		EE2E0039207B78950062AB74 /* qcsClassDetailInsideXZTCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE2E0037207B78950062AB74 /* qcsClassDetailInsideXZTCell.xib */; };
-		EE2E003D207B78AD0062AB74 /* qcsClassDetailInsideJXKJCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EE2E003B207B78AD0062AB74 /* qcsClassDetailInsideJXKJCell.m */; };
-		EE2E003E207B78AD0062AB74 /* qcsClassDetailInsideJXKJCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE2E003C207B78AD0062AB74 /* qcsClassDetailInsideJXKJCell.xib */; };
-		EE2E0041207BA5660062AB74 /* qcsClassStasticInsideDTBHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = EE2E0040207BA5660062AB74 /* qcsClassStasticInsideDTBHeader.m */; };
-		EE2E0045207BA70E0062AB74 /* qcsClassStasticInsideDTBCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EE2E0043207BA70E0062AB74 /* qcsClassStasticInsideDTBCell.m */; };
-		EE2E0046207BA70E0062AB74 /* qcsClassStasticInsideDTBCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE2E0044207BA70E0062AB74 /* qcsClassStasticInsideDTBCell.xib */; };
-		EE2E0049207C6BB70062AB74 /* QCSStasticModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EE2E0048207C6BB70062AB74 /* QCSStasticModel.m */; };
-		EE2E004C207DAC820062AB74 /* QCSClassDetailModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EE2E004B207DAC820062AB74 /* QCSClassDetailModel.m */; };
-		EE2E0050207DEE6B0062AB74 /* qcsClassDetailInsideSXBJDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE2E004E207DEE6B0062AB74 /* qcsClassDetailInsideSXBJDetailController.m */; };
-		EE2E0051207DEE6B0062AB74 /* qcsClassDetailInsideSXBJDetailController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE2E004F207DEE6B0062AB74 /* qcsClassDetailInsideSXBJDetailController.xib */; };
-		EE2E005A207DF3760062AB74 /* qcsClassDetailInsideXZTDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE2E0058207DF3760062AB74 /* qcsClassDetailInsideXZTDetailController.m */; };
-		EE2E005B207DF3760062AB74 /* qcsClassDetailInsideXZTDetailController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE2E0059207DF3760062AB74 /* qcsClassDetailInsideXZTDetailController.xib */; };
-		EE2E005F207DF6990062AB74 /* qcsClassDetailInsideXZTDetailCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EE2E005D207DF6990062AB74 /* qcsClassDetailInsideXZTDetailCell.m */; };
-		EE2E0060207DF6990062AB74 /* qcsClassDetailInsideXZTDetailCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE2E005E207DF6990062AB74 /* qcsClassDetailInsideXZTDetailCell.xib */; };
-		EE2E0099207E063C0062AB74 /* qcsClassDetailInsideXZTStudentCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EE2E0097207E063C0062AB74 /* qcsClassDetailInsideXZTStudentCell.m */; };
-		EE2E009A207E063C0062AB74 /* qcsClassDetailInsideXZTStudentCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE2E0098207E063C0062AB74 /* qcsClassDetailInsideXZTStudentCell.xib */; };
-		EE2E009E207E1F710062AB74 /* qcsClassReviewSearchController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE2E009C207E1F710062AB74 /* qcsClassReviewSearchController.m */; };
-		EE2E009F207E1F710062AB74 /* qcsClassReviewSearchController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE2E009D207E1F710062AB74 /* qcsClassReviewSearchController.xib */; };
-		EE2E00A3207E26720062AB74 /* qcsClassReviewSearchStudentController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE2E00A1207E26720062AB74 /* qcsClassReviewSearchStudentController.m */; };
-		EE2E00A4207E26720062AB74 /* qcsClassReviewSearchStudentController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE2E00A2207E26720062AB74 /* qcsClassReviewSearchStudentController.xib */; };
-		EE2E00A8207F14630062AB74 /* qcsClassReviewInsideStudentController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE2E00A6207F14630062AB74 /* qcsClassReviewInsideStudentController.m */; };
-		EE2E00A9207F14630062AB74 /* qcsClassReviewInsideStudentController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE2E00A7207F14630062AB74 /* qcsClassReviewInsideStudentController.xib */; };
-		EE2E00AD207F8E870062AB74 /* qcsClassReviewSearchCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EE2E00AB207F8E860062AB74 /* qcsClassReviewSearchCell.m */; };
-		EE2E00AE207F8E870062AB74 /* qcsClassReviewSearchCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE2E00AC207F8E860062AB74 /* qcsClassReviewSearchCell.xib */; };
-		EE2E00B52080553B0062AB74 /* qcsClassReviewSearchTreeController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE2E00B32080553B0062AB74 /* qcsClassReviewSearchTreeController.m */; };
-		EE2E00B62080553B0062AB74 /* qcsClassReviewSearchTreeController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE2E00B42080553B0062AB74 /* qcsClassReviewSearchTreeController.xib */; };
 		EE323142200F57F000E371FF /* NTESVideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE32313F200F57F000E371FF /* NTESVideoViewController.m */; };
 		EE323143200F57F000E371FF /* NTESVideoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE323140200F57F000E371FF /* NTESVideoViewController.xib */; };
 		EE3A679920118931001F1A8E /* ClassAttendanceNetHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = EE3A679820118931001F1A8E /* ClassAttendanceNetHelper.m */; };
@@ -280,30 +208,6 @@
 		EE3B270D1FFE2CEF00DA5F6F /* libicucore.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = EE3B270C1FFE2CEF00DA5F6F /* libicucore.tbd */; };
 		EE3B270F1FFE2D0900DA5F6F /* libstdc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = EE3B270E1FFE2D0900DA5F6F /* libstdc++.tbd */; };
 		EE3B27121FFE2D2200DA5F6F /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = EE3B27111FFE2D2200DA5F6F /* libsqlite3.tbd */; };
-		EE3FFC552079AE48004CD2A9 /* qcsClassReviewInsideController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE3FFC532079AE48004CD2A9 /* qcsClassReviewInsideController.m */; };
-		EE3FFC562079AE48004CD2A9 /* qcsClassReviewInsideController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE3FFC542079AE48004CD2A9 /* qcsClassReviewInsideController.xib */; };
-		EE3FFC592079AF10004CD2A9 /* QCSHomeLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = EE3FFC582079AF10004CD2A9 /* QCSHomeLabel.m */; };
-		EE3FFC6A2079B01B004CD2A9 /* TAAbstractDotView.m in Sources */ = {isa = PBXBuildFile; fileRef = EE3FFC5D2079B01B004CD2A9 /* TAAbstractDotView.m */; };
-		EE3FFC6B2079B01B004CD2A9 /* TAAnimatedDotView.m in Sources */ = {isa = PBXBuildFile; fileRef = EE3FFC5F2079B01B004CD2A9 /* TAAnimatedDotView.m */; };
-		EE3FFC6C2079B01B004CD2A9 /* TADotView.m in Sources */ = {isa = PBXBuildFile; fileRef = EE3FFC612079B01B004CD2A9 /* TADotView.m */; };
-		EE3FFC6D2079B01B004CD2A9 /* TAPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = EE3FFC632079B01B004CD2A9 /* TAPageControl.m */; };
-		EE3FFC6E2079B01B004CD2A9 /* SDCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EE3FFC652079B01B004CD2A9 /* SDCollectionViewCell.m */; };
-		EE3FFC6F2079B01B004CD2A9 /* SDCycleScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = EE3FFC672079B01B004CD2A9 /* SDCycleScrollView.m */; };
-		EE3FFC702079B01B004CD2A9 /* UIView+SDExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = EE3FFC692079B01B004CD2A9 /* UIView+SDExtension.m */; };
-		EE3FFC742079CF83004CD2A9 /* qcsClassReviewInsideClassCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EE3FFC722079CF83004CD2A9 /* qcsClassReviewInsideClassCell.m */; };
-		EE3FFC752079CF83004CD2A9 /* qcsClassReviewInsideClassCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE3FFC732079CF83004CD2A9 /* qcsClassReviewInsideClassCell.xib */; };
-		EE3FFC792079CF96004CD2A9 /* qcsClassReviewInsideStudentCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EE3FFC772079CF96004CD2A9 /* qcsClassReviewInsideStudentCell.m */; };
-		EE3FFC7A2079CF96004CD2A9 /* qcsClassReviewInsideStudentCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE3FFC782079CF96004CD2A9 /* qcsClassReviewInsideStudentCell.xib */; };
-		EE3FFC802079F167004CD2A9 /* qcsClassDetailMainController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE3FFC7F2079F167004CD2A9 /* qcsClassDetailMainController.m */; };
-		EE3FFC842079F1D7004CD2A9 /* qcsClassDetailInsideController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE3FFC822079F1D7004CD2A9 /* qcsClassDetailInsideController.m */; };
-		EE3FFC852079F1D7004CD2A9 /* qcsClassDetailInsideController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE3FFC832079F1D7004CD2A9 /* qcsClassDetailInsideController.xib */; };
-		EE3FFC882079F21D004CD2A9 /* qcsClassStasticMainController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE3FFC872079F21D004CD2A9 /* qcsClassStasticMainController.m */; };
-		EE3FFC8C2079F237004CD2A9 /* qcsClassStasticInsideController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE3FFC8A2079F237004CD2A9 /* qcsClassStasticInsideController.m */; };
-		EE3FFC8D2079F237004CD2A9 /* qcsClassStasticInsideController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE3FFC8B2079F237004CD2A9 /* qcsClassStasticInsideController.xib */; };
-		EE3FFC912079F25F004CD2A9 /* qcsClassInteractionMainController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE3FFC8F2079F25F004CD2A9 /* qcsClassInteractionMainController.m */; };
-		EE3FFC922079F25F004CD2A9 /* qcsClassInteractionMainController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE3FFC902079F25F004CD2A9 /* qcsClassInteractionMainController.xib */; };
-		EE3FFC952079F8D3004CD2A9 /* QCSMainModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EE3FFC942079F8D3004CD2A9 /* QCSMainModel.m */; };
-		EE3FFC98207A018F004CD2A9 /* QCSNetHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = EE3FFC97207A018F004CD2A9 /* QCSNetHelper.m */; };
 		EE4201491FFE153F0009D064 /* NTESUITextField.m in Sources */ = {isa = PBXBuildFile; fileRef = EE42FBDE1FFE153E0009D064 /* NTESUITextField.m */; };
 		EE42014A1FFE153F0009D064 /* NSObject+SXRuntime.m in Sources */ = {isa = PBXBuildFile; fileRef = EE42FBE11FFE153E0009D064 /* NSObject+SXRuntime.m */; };
 		EE42014B1FFE153F0009D064 /* UIBarButtonItem+SXCreate.m in Sources */ = {isa = PBXBuildFile; fileRef = EE42FBE31FFE153E0009D064 /* UIBarButtonItem+SXCreate.m */; };
@@ -976,35 +880,15 @@
 		EE42045F1FFE1E260009D064 /* TYHHttpTool.m in Sources */ = {isa = PBXBuildFile; fileRef = EE42045E1FFE1E250009D064 /* TYHHttpTool.m */; };
 		EE4827DD201882EB00605E1B /* CAEvaluateController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE4827DB201882EB00605E1B /* CAEvaluateController.m */; };
 		EE4827DE201882EB00605E1B /* CAEvaluateController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE4827DC201882EB00605E1B /* CAEvaluateController.xib */; };
-		EE6672392093334900890A73 /* qcsMenuTypeOneCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EE6672372093334900890A73 /* qcsMenuTypeOneCell.m */; };
-		EE66723A2093334900890A73 /* qcsMenuTypeOneCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE6672382093334900890A73 /* qcsMenuTypeOneCell.xib */; };
-		EE6672432093351900890A73 /* qcsMenuTypeTwoMenuCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EE6672412093351900890A73 /* qcsMenuTypeTwoMenuCell.m */; };
-		EE6672442093351900890A73 /* qcsMenuTypeTwoMenuCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE6672422093351900890A73 /* qcsMenuTypeTwoMenuCell.xib */; };
-		EE6672472094465B00890A73 /* QCSStudyAnalyticsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EE6672462094465B00890A73 /* QCSStudyAnalyticsModel.m */; };
-		EE95F2D72071DD5C0067F2E2 /* QCSchoolCommonHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = EE95F2CE2071DD5B0067F2E2 /* QCSchoolCommonHeaderView.m */; };
-		EE95F2D82071DD5C0067F2E2 /* QCSchoolCommonItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EE95F2D02071DD5B0067F2E2 /* QCSchoolCommonItemCell.m */; };
-		EE95F2D92071DD5C0067F2E2 /* QCSchoolCommonItemCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE95F2D12071DD5B0067F2E2 /* QCSchoolCommonItemCell.xib */; };
-		EE95F2DA2071DD5C0067F2E2 /* QCSchoolMainItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EE95F2D32071DD5B0067F2E2 /* QCSchoolMainItemCell.m */; };
-		EE95F2DB2071DD5C0067F2E2 /* QCSchoolMainItemCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE95F2D42071DD5B0067F2E2 /* QCSchoolMainItemCell.xib */; };
-		EE95F2E0207218160067F2E2 /* QCSSourceHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = EE95F2DF207218160067F2E2 /* QCSSourceHandler.m */; };
-		EE95F2E3207224010067F2E2 /* QCSchoolMainController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE95F2E2207224010067F2E2 /* QCSchoolMainController.m */; };
-		EE95F3252079A86B0067F2E2 /* qcsClassReviewMainController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE95F3232079A86B0067F2E2 /* qcsClassReviewMainController.m */; };
-		EE95F3262079A86B0067F2E2 /* qcsClassReviewMainController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE95F3242079A86B0067F2E2 /* qcsClassReviewMainController.xib */; };
 		EE99585A20207EA3002D6096 /* CAClassDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE99585820207EA3002D6096 /* CAClassDetailController.m */; };
 		EE99585B20207EA3002D6096 /* CAClassDetailController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE99585920207EA3002D6096 /* CAClassDetailController.xib */; };
-		EEAB0DD620AAC5130034DBE7 /* qcsHomeworkSearchController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEAB0DD420AAC5130034DBE7 /* qcsHomeworkSearchController.m */; };
-		EEAB0DD720AAC5130034DBE7 /* qcsHomeworkSearchController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EEAB0DD520AAC5130034DBE7 /* qcsHomeworkSearchController.xib */; };
-		EEAB0DDB20AACEB90034DBE7 /* qcsHomeworkChooseTypeController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEAB0DD920AACEB90034DBE7 /* qcsHomeworkChooseTypeController.m */; };
-		EEAB0DDC20AACEB90034DBE7 /* qcsHomeworkChooseTypeController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EEAB0DDA20AACEB90034DBE7 /* qcsHomeworkChooseTypeController.xib */; };
-		EEAB0DE020AACECA0034DBE7 /* qcsHomeworkObjectController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEAB0DDE20AACECA0034DBE7 /* qcsHomeworkObjectController.m */; };
-		EEAB0DE120AACECA0034DBE7 /* qcsHomeworkObjectController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EEAB0DDF20AACECA0034DBE7 /* qcsHomeworkObjectController.xib */; };
-		EEAB0DE420AC1F2F0034DBE7 /* ZXCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EEAB0DE220AC1F2F0034DBE7 /* ZXCollectionCell.m */; };
-		EEB1ECA92099A21E0005DAEB /* qcsStudyAnalyticsSearcuClassController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEB1ECA72099A21D0005DAEB /* qcsStudyAnalyticsSearcuClassController.m */; };
-		EEB1ECAA2099A21E0005DAEB /* qcsStudyAnalyticsSearcuClassController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EEB1ECA82099A21E0005DAEB /* qcsStudyAnalyticsSearcuClassController.xib */; };
-		EEB1ECAE2099A2300005DAEB /* qcsStudyAnalyticsSearcuStudentController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEB1ECAC2099A2300005DAEB /* qcsStudyAnalyticsSearcuStudentController.m */; };
-		EEB1ECAF2099A2300005DAEB /* qcsStudyAnalyticsSearcuStudentController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EEB1ECAD2099A2300005DAEB /* qcsStudyAnalyticsSearcuStudentController.xib */; };
-		EEB1ECB22099A7830005DAEB /* QCSchoolTagHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = EEB1ECB12099A7830005DAEB /* QCSchoolTagHandle.m */; };
-		EEB1ECB5209AF53E0005DAEB /* qcsStudyAnalyticStudentController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEB1ECB4209AF53E0005DAEB /* qcsStudyAnalyticStudentController.m */; };
+		EEA8873722A0DC03004BA812 /* SDCycleScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = EEA8872B22A0DC03004BA812 /* SDCycleScrollView.m */; };
+		EEA8873822A0DC03004BA812 /* UIView+SDExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = EEA8872C22A0DC03004BA812 /* UIView+SDExtension.m */; };
+		EEA8873922A0DC03004BA812 /* SDCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EEA8872D22A0DC03004BA812 /* SDCollectionViewCell.m */; };
+		EEA8873A22A0DC03004BA812 /* TADotView.m in Sources */ = {isa = PBXBuildFile; fileRef = EEA8873022A0DC03004BA812 /* TADotView.m */; };
+		EEA8873B22A0DC03004BA812 /* TAPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = EEA8873122A0DC03004BA812 /* TAPageControl.m */; };
+		EEA8873C22A0DC03004BA812 /* TAAnimatedDotView.m in Sources */ = {isa = PBXBuildFile; fileRef = EEA8873222A0DC03004BA812 /* TAAnimatedDotView.m */; };
+		EEA8873D22A0DC03004BA812 /* TAAbstractDotView.m in Sources */ = {isa = PBXBuildFile; fileRef = EEA8873322A0DC03004BA812 /* TAAbstractDotView.m */; };
 		EEB841DC201B153D00E7EF14 /* CAEvaluateItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EEB841DA201B153D00E7EF14 /* CAEvaluateItemCell.m */; };
 		EEB841DD201B153D00E7EF14 /* CAEvaluateItemCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EEB841DB201B153D00E7EF14 /* CAEvaluateItemCell.xib */; };
 		EEB841E1201B1B8C00E7EF14 /* CAEvaluateListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EEB841DF201B1B8C00E7EF14 /* CAEvaluateListCell.m */; };
@@ -1015,12 +899,6 @@
 		EEB841F4201B325E00E7EF14 /* LLAnimationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EEB841EF201B325D00E7EF14 /* LLAnimationManager.m */; };
 		EEB841F5201B325E00E7EF14 /* LLEyesLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = EEB841F1201B325D00E7EF14 /* LLEyesLayer.m */; };
 		EEB841F6201B325E00E7EF14 /* LLSwitch.m in Sources */ = {isa = PBXBuildFile; fileRef = EEB841F3201B325D00E7EF14 /* LLSwitch.m */; };
-		EEE0516320A5892500FAB68D /* qcsHomeworkMainController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEE0516120A5892500FAB68D /* qcsHomeworkMainController.m */; };
-		EEE0516420A5892500FAB68D /* qcsHomeworkMainController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EEE0516220A5892500FAB68D /* qcsHomeworkMainController.xib */; };
-		EEE0516820A58A5B00FAB68D /* qcsHomeworkReleaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEE0516620A58A5B00FAB68D /* qcsHomeworkReleaseController.m */; };
-		EEE0516920A58A5B00FAB68D /* qcsHomeworkReleaseController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EEE0516720A58A5B00FAB68D /* qcsHomeworkReleaseController.xib */; };
-		EEEBC1BB20AD8A24005EDACE /* qcsHomeworkSelectCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EEEBC1B920AD8A24005EDACE /* qcsHomeworkSelectCell.m */; };
-		EEEBC1BC20AD8A24005EDACE /* qcsHomeworkSelectCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EEEBC1BA20AD8A24005EDACE /* qcsHomeworkSelectCell.xib */; };
 		EEF58EA32246825300DBD251 /* TYHPrivateController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EEF58EA02246825200DBD251 /* TYHPrivateController.xib */; };
 		EEF58EA42246825300DBD251 /* TYHPrivateController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEF58EA12246825200DBD251 /* TYHPrivateController.m */; };
 /* End PBXBuildFile section */
@@ -1359,132 +1237,13 @@
 		E4E8D9901BB132040077AE60 /* nim_release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = nim_release.xcconfig; sourceTree = "<group>"; };
 		E4ED12DC1B6B07EA00316496 /* message.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = message.wav; sourceTree = "<group>"; };
 		EE0A524F224793F700BB89D5 /* 经纶教育.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "经纶教育.entitlements"; sourceTree = "<group>"; };
-		EE0BDBC92091C22400AAD516 /* qcsStudyAnalyticsMainController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = qcsStudyAnalyticsMainController.h; sourceTree = "<group>"; };
-		EE0BDBCA2091C22400AAD516 /* qcsStudyAnalyticsMainController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = qcsStudyAnalyticsMainController.m; sourceTree = "<group>"; };
-		EE0BDBCC2091C27700AAD516 /* qcsStudyAnalyticsInsideController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = qcsStudyAnalyticsInsideController.h; sourceTree = "<group>"; };
-		EE0BDBCD2091C27700AAD516 /* qcsStudyAnalyticsInsideController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = qcsStudyAnalyticsInsideController.m; sourceTree = "<group>"; };
-		EE0BDBCE2091C27700AAD516 /* qcsStudyAnalyticsInsideController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = qcsStudyAnalyticsInsideController.xib; sourceTree = "<group>"; };
-		EE0BDBD12091D28F00AAD516 /* qcsMenuTableController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = qcsMenuTableController.h; sourceTree = "<group>"; };
-		EE0BDBD22091D28F00AAD516 /* qcsMenuTableController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = qcsMenuTableController.m; sourceTree = "<group>"; };
-		EE0BDBD32091D28F00AAD516 /* qcsMenuTableController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = qcsMenuTableController.xib; sourceTree = "<group>"; };
-		EE0BDBD72091D2CB00AAD516 /* CWDrawerTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWDrawerTransition.h; sourceTree = "<group>"; };
-		EE0BDBD82091D2CB00AAD516 /* CWDrawerTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CWDrawerTransition.m; sourceTree = "<group>"; };
-		EE0BDBD92091D2CB00AAD516 /* CWInteractiveTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWInteractiveTransition.h; sourceTree = "<group>"; };
-		EE0BDBDA2091D2CB00AAD516 /* CWInteractiveTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CWInteractiveTransition.m; sourceTree = "<group>"; };
-		EE0BDBDB2091D2CB00AAD516 /* CWLateralSlideAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWLateralSlideAnimator.h; sourceTree = "<group>"; };
-		EE0BDBDC2091D2CB00AAD516 /* CWLateralSlideAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CWLateralSlideAnimator.m; sourceTree = "<group>"; };
-		EE0BDBDD2091D2CB00AAD516 /* CWLateralSlideConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWLateralSlideConfiguration.h; sourceTree = "<group>"; };
-		EE0BDBDE2091D2CB00AAD516 /* CWLateralSlideConfiguration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CWLateralSlideConfiguration.m; sourceTree = "<group>"; };
-		EE0BDBDF2091D2CB00AAD516 /* UIViewController+CWLateralSlide.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+CWLateralSlide.h"; sourceTree = "<group>"; };
-		EE0BDBE02091D2CB00AAD516 /* UIViewController+CWLateralSlide.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+CWLateralSlide.m"; sourceTree = "<group>"; };
 		EE147904201084340099CC02 /* TYHClassAttendanceController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYHClassAttendanceController.h; sourceTree = "<group>"; };
 		EE147905201084340099CC02 /* TYHClassAttendanceController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TYHClassAttendanceController.m; sourceTree = "<group>"; };
-		EE22FCA420B2B321005E26A1 /* HAVPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HAVPlayer.h; sourceTree = "<group>"; };
-		EE22FCA520B2B321005E26A1 /* HAVPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HAVPlayer.m; sourceTree = "<group>"; };
-		EE22FCA620B2B321005E26A1 /* HProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HProgressView.h; sourceTree = "<group>"; };
-		EE22FCA720B2B321005E26A1 /* HProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HProgressView.m; sourceTree = "<group>"; };
-		EE22FCA820B2B321005E26A1 /* HVideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HVideoViewController.h; sourceTree = "<group>"; };
-		EE22FCA920B2B321005E26A1 /* HVideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HVideoViewController.m; sourceTree = "<group>"; };
-		EE22FCAA20B2B321005E26A1 /* HVideoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HVideoViewController.xib; sourceTree = "<group>"; };
-		EE22FCAC20B2B321005E26A1 /* btn_video_flip_camera@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn_video_flip_camera@2x.png"; sourceTree = "<group>"; };
-		EE22FCBA20B2BF60005E26A1 /* qcsHomeworkModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = qcsHomeworkModel.h; sourceTree = "<group>"; };
-		EE22FCBB20B2BF60005E26A1 /* qcsHomeworkModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = qcsHomeworkModel.m; sourceTree = "<group>"; };
-		EE22FCBF20B2D1B6005E26A1 /* lame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lame.h; sourceTree = "<group>"; };
-		EE22FCC020B2D1B6005E26A1 /* libmp3lame.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libmp3lame.a; sourceTree = "<group>"; };
-		EE22FCC120B2D1B6005E26A1 /* LGAudioKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGAudioKit.h; sourceTree = "<group>"; };
-		EE22FCC220B2D1B6005E26A1 /* LGMessageModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGMessageModel.h; sourceTree = "<group>"; };
-		EE22FCC320B2D1B6005E26A1 /* LGMessageModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGMessageModel.m; sourceTree = "<group>"; };
-		EE22FCC520B2D1B6005E26A1 /* LGAudioPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGAudioPlayer.h; sourceTree = "<group>"; };
-		EE22FCC620B2D1B6005E26A1 /* LGAudioPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGAudioPlayer.m; sourceTree = "<group>"; };
-		EE22FCC820B2D1B6005E26A1 /* LGSoundRecorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGSoundRecorder.h; sourceTree = "<group>"; };
-		EE22FCC920B2D1B6005E26A1 /* LGSoundRecorder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGSoundRecorder.m; sourceTree = "<group>"; };
-		EE22FCCB20B2D1B6005E26A1 /* toast_cancelsend@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "toast_cancelsend@2x.png"; sourceTree = "<group>"; };
-		EE22FCCC20B2D1B6005E26A1 /* toast_microphone@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "toast_microphone@2x.png"; sourceTree = "<group>"; };
-		EE22FCCD20B2D1B6005E26A1 /* toast_timeshort@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "toast_timeshort@2x.png"; sourceTree = "<group>"; };
-		EE22FCCE20B2D1B6005E26A1 /* toast_vol_1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "toast_vol_1@2x.png"; sourceTree = "<group>"; };
-		EE22FCCF20B2D1B6005E26A1 /* toast_vol_2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "toast_vol_2@2x.png"; sourceTree = "<group>"; };
-		EE22FCD020B2D1B6005E26A1 /* toast_vol_3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "toast_vol_3@2x.png"; sourceTree = "<group>"; };
-		EE22FCD120B2D1B6005E26A1 /* toast_vol_4@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "toast_vol_4@2x.png"; sourceTree = "<group>"; };
-		EE22FCD220B2D1B6005E26A1 /* toast_vol_5@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "toast_vol_5@2x.png"; sourceTree = "<group>"; };
-		EE22FCD320B2D1B6005E26A1 /* toast_vol_6@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "toast_vol_6@2x.png"; sourceTree = "<group>"; };
-		EE22FCD420B2D1B6005E26A1 /* toast_vol_7@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "toast_vol_7@2x.png"; sourceTree = "<group>"; };
-		EE22FCD720B2D1B6005E26A1 /* amrFileCodec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = amrFileCodec.h; sourceTree = "<group>"; };
-		EE22FCD820B2D1B6005E26A1 /* amrFileCodec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = amrFileCodec.m; sourceTree = "<group>"; };
-		EE22FCDB20B2D1B6005E26A1 /* interf_dec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = interf_dec.h; sourceTree = "<group>"; };
-		EE22FCDC20B2D1B6005E26A1 /* interf_enc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = interf_enc.h; sourceTree = "<group>"; };
-		EE22FCDE20B2D1B6005E26A1 /* dec_if.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dec_if.h; sourceTree = "<group>"; };
-		EE22FCDF20B2D1B6005E26A1 /* if_rom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = if_rom.h; sourceTree = "<group>"; };
-		EE22FCE120B2D1B6005E26A1 /* libopencore-amrnb.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libopencore-amrnb.a"; sourceTree = "<group>"; };
-		EE22FCE220B2D1B6005E26A1 /* libopencore-amrwb.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libopencore-amrwb.a"; sourceTree = "<group>"; };
-		EE22FCF920B31994005E26A1 /* MBProgressHU_DDD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHU_DDD.h; sourceTree = "<group>"; };
-		EE22FCFA20B31995005E26A1 /* MBProgressHU_DDD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHU_DDD.m; sourceTree = "<group>"; };
-		EE22FCFC20B401A1005E26A1 /* qcsHomeworkMainCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = qcsHomeworkMainCell.h; sourceTree = "<group>"; };
-		EE22FCFD20B401A1005E26A1 /* qcsHomeworkMainCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = qcsHomeworkMainCell.m; sourceTree = "<group>"; };
-		EE22FCFE20B401A1005E26A1 /* qcsHomeworkMainCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = qcsHomeworkMainCell.xib; sourceTree = "<group>"; };
 		EE23D8262272EDA900BCFB66 /* hexColor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = hexColor.h; sourceTree = "<group>"; };
 		EE23D8272272EDA900BCFB66 /* hexColor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = hexColor.m; sourceTree = "<group>"; };
 		EE2D0351200311CD00142A7F /* appSource.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = appSource.plist; sourceTree = "<group>"; };
 		EE2D0352200311CD00142A7F /* OptinalButton.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = OptinalButton.plist; sourceTree = "<group>"; };
 		EE2D0353200311CE00142A7F /* OptinalTitle.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = OptinalTitle.plist; sourceTree = "<group>"; };
-		EE2E001B207B651A0062AB74 /* LYEmptyBaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYEmptyBaseView.h; sourceTree = "<group>"; };
-		EE2E001C207B651A0062AB74 /* LYEmptyBaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYEmptyBaseView.m; sourceTree = "<group>"; };
-		EE2E001D207B651A0062AB74 /* LYEmptyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYEmptyView.h; sourceTree = "<group>"; };
-		EE2E001E207B651A0062AB74 /* LYEmptyView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYEmptyView.m; sourceTree = "<group>"; };
-		EE2E001F207B651A0062AB74 /* LYEmptyViewHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYEmptyViewHeader.h; sourceTree = "<group>"; };
-		EE2E0020207B651A0062AB74 /* UIScrollView+Empty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+Empty.h"; sourceTree = "<group>"; };
-		EE2E0021207B651A0062AB74 /* UIScrollView+Empty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+Empty.m"; sourceTree = "<group>"; };
-		EE2E0022207B651A0062AB74 /* UIView+LYExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+LYExtension.h"; sourceTree = "<group>"; };
-		EE2E0023207B651A0062AB74 /* UIView+LYExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+LYExtension.m"; sourceTree = "<group>"; };
-		EE2E0028207B6C3C0062AB74 /* qcsClassStasticInsideXTTJCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = qcsClassStasticInsideXTTJCell.h; sourceTree = "<group>"; };
-		EE2E0029207B6C3C0062AB74 /* qcsClassStasticInsideXTTJCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = qcsClassStasticInsideXTTJCell.m; sourceTree = "<group>"; };
-		EE2E002A207B6C3C0062AB74 /* qcsClassStasticInsideXTTJCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = qcsClassStasticInsideXTTJCell.xib; sourceTree = "<group>"; };
-		EE2E002D207B6EBB0062AB74 /* qcsClassStasticInsideXTTJHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = qcsClassStasticInsideXTTJHeader.h; sourceTree = "<group>"; };
-		EE2E002E207B6EBB0062AB74 /* qcsClassStasticInsideXTTJHeader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = qcsClassStasticInsideXTTJHeader.m; sourceTree = "<group>"; };
-		EE2E0030207B782A0062AB74 /* qcsClassDetailInsideSXBJCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = qcsClassDetailInsideSXBJCell.h; sourceTree = "<group>"; };
-		EE2E0031207B782A0062AB74 /* qcsClassDetailInsideSXBJCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = qcsClassDetailInsideSXBJCell.m; sourceTree = "<group>"; };
-		EE2E0032207B782A0062AB74 /* qcsClassDetailInsideSXBJCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = qcsClassDetailInsideSXBJCell.xib; sourceTree = "<group>"; };
-		EE2E0035207B78950062AB74 /* qcsClassDetailInsideXZTCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = qcsClassDetailInsideXZTCell.h; sourceTree = "<group>"; };
-		EE2E0036207B78950062AB74 /* qcsClassDetailInsideXZTCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = qcsClassDetailInsideXZTCell.m; sourceTree = "<group>"; };
-		EE2E0037207B78950062AB74 /* qcsClassDetailInsideXZTCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = qcsClassDetailInsideXZTCell.xib; sourceTree = "<group>"; };
-		EE2E003A207B78AD0062AB74 /* qcsClassDetailInsideJXKJCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = qcsClassDetailInsideJXKJCell.h; sourceTree = "<group>"; };
-		EE2E003B207B78AD0062AB74 /* qcsClassDetailInsideJXKJCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = qcsClassDetailInsideJXKJCell.m; sourceTree = "<group>"; };
-		EE2E003C207B78AD0062AB74 /* qcsClassDetailInsideJXKJCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = qcsClassDetailInsideJXKJCell.xib; sourceTree = "<group>"; };
-		EE2E003F207BA5660062AB74 /* qcsClassStasticInsideDTBHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = qcsClassStasticInsideDTBHeader.h; sourceTree = "<group>"; };
-		EE2E0040207BA5660062AB74 /* qcsClassStasticInsideDTBHeader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = qcsClassStasticInsideDTBHeader.m; sourceTree = "<group>"; };
-		EE2E0042207BA70E0062AB74 /* qcsClassStasticInsideDTBCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = qcsClassStasticInsideDTBCell.h; sourceTree = "<group>"; };
-		EE2E0043207BA70E0062AB74 /* qcsClassStasticInsideDTBCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = qcsClassStasticInsideDTBCell.m; sourceTree = "<group>"; };
-		EE2E0044207BA70E0062AB74 /* qcsClassStasticInsideDTBCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = qcsClassStasticInsideDTBCell.xib; sourceTree = "<group>"; };
-		EE2E0047207C6BB70062AB74 /* QCSStasticModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QCSStasticModel.h; sourceTree = "<group>"; };
-		EE2E0048207C6BB70062AB74 /* QCSStasticModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QCSStasticModel.m; sourceTree = "<group>"; };
-		EE2E004A207DAC820062AB74 /* QCSClassDetailModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QCSClassDetailModel.h; sourceTree = "<group>"; };
-		EE2E004B207DAC820062AB74 /* QCSClassDetailModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QCSClassDetailModel.m; sourceTree = "<group>"; };
-		EE2E004D207DEE6B0062AB74 /* qcsClassDetailInsideSXBJDetailController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = qcsClassDetailInsideSXBJDetailController.h; sourceTree = "<group>"; };
-		EE2E004E207DEE6B0062AB74 /* qcsClassDetailInsideSXBJDetailController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = qcsClassDetailInsideSXBJDetailController.m; sourceTree = "<group>"; };
-		EE2E004F207DEE6B0062AB74 /* qcsClassDetailInsideSXBJDetailController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = qcsClassDetailInsideSXBJDetailController.xib; sourceTree = "<group>"; };
-		EE2E0057207DF3760062AB74 /* qcsClassDetailInsideXZTDetailController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = qcsClassDetailInsideXZTDetailController.h; sourceTree = "<group>"; };
-		EE2E0058207DF3760062AB74 /* qcsClassDetailInsideXZTDetailController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = qcsClassDetailInsideXZTDetailController.m; sourceTree = "<group>"; };
-		EE2E0059207DF3760062AB74 /* qcsClassDetailInsideXZTDetailController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = qcsClassDetailInsideXZTDetailController.xib; sourceTree = "<group>"; };
-		EE2E005C207DF6990062AB74 /* qcsClassDetailInsideXZTDetailCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = qcsClassDetailInsideXZTDetailCell.h; sourceTree = "<group>"; };
-		EE2E005D207DF6990062AB74 /* qcsClassDetailInsideXZTDetailCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = qcsClassDetailInsideXZTDetailCell.m; sourceTree = "<group>"; };
-		EE2E005E207DF6990062AB74 /* qcsClassDetailInsideXZTDetailCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = qcsClassDetailInsideXZTDetailCell.xib; sourceTree = "<group>"; };
-		EE2E0096207E063C0062AB74 /* qcsClassDetailInsideXZTStudentCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = qcsClassDetailInsideXZTStudentCell.h; sourceTree = "<group>"; };
-		EE2E0097207E063C0062AB74 /* qcsClassDetailInsideXZTStudentCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = qcsClassDetailInsideXZTStudentCell.m; sourceTree = "<group>"; };
-		EE2E0098207E063C0062AB74 /* qcsClassDetailInsideXZTStudentCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = qcsClassDetailInsideXZTStudentCell.xib; sourceTree = "<group>"; };
-		EE2E009B207E1F710062AB74 /* qcsClassReviewSearchController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = qcsClassReviewSearchController.h; sourceTree = "<group>"; };
-		EE2E009C207E1F710062AB74 /* qcsClassReviewSearchController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = qcsClassReviewSearchController.m; sourceTree = "<group>"; };
-		EE2E009D207E1F710062AB74 /* qcsClassReviewSearchController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = qcsClassReviewSearchController.xib; sourceTree = "<group>"; };
-		EE2E00A0207E26720062AB74 /* qcsClassReviewSearchStudentController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = qcsClassReviewSearchStudentController.h; sourceTree = "<group>"; };
-		EE2E00A1207E26720062AB74 /* qcsClassReviewSearchStudentController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = qcsClassReviewSearchStudentController.m; sourceTree = "<group>"; };
-		EE2E00A2207E26720062AB74 /* qcsClassReviewSearchStudentController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = qcsClassReviewSearchStudentController.xib; sourceTree = "<group>"; };
-		EE2E00A5207F14630062AB74 /* qcsClassReviewInsideStudentController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = qcsClassReviewInsideStudentController.h; sourceTree = "<group>"; };
-		EE2E00A6207F14630062AB74 /* qcsClassReviewInsideStudentController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = qcsClassReviewInsideStudentController.m; sourceTree = "<group>"; };
-		EE2E00A7207F14630062AB74 /* qcsClassReviewInsideStudentController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = qcsClassReviewInsideStudentController.xib; sourceTree = "<group>"; };
-		EE2E00AA207F8E860062AB74 /* qcsClassReviewSearchCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = qcsClassReviewSearchCell.h; sourceTree = "<group>"; };
-		EE2E00AB207F8E860062AB74 /* qcsClassReviewSearchCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = qcsClassReviewSearchCell.m; sourceTree = "<group>"; };
-		EE2E00AC207F8E860062AB74 /* qcsClassReviewSearchCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = qcsClassReviewSearchCell.xib; sourceTree = "<group>"; };
-		EE2E00B22080553B0062AB74 /* qcsClassReviewSearchTreeController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = qcsClassReviewSearchTreeController.h; sourceTree = "<group>"; };
-		EE2E00B32080553B0062AB74 /* qcsClassReviewSearchTreeController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = qcsClassReviewSearchTreeController.m; sourceTree = "<group>"; };
-		EE2E00B42080553B0062AB74 /* qcsClassReviewSearchTreeController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = qcsClassReviewSearchTreeController.xib; sourceTree = "<group>"; };
 		EE32313F200F57F000E371FF /* NTESVideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NTESVideoViewController.m; sourceTree = "<group>"; };
 		EE323140200F57F000E371FF /* NTESVideoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NTESVideoViewController.xib; sourceTree = "<group>"; };
 		EE323141200F57F000E371FF /* NTESVideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NTESVideoViewController.h; sourceTree = "<group>"; };
@@ -1504,48 +1263,6 @@
 		EE3B270E1FFE2D0900DA5F6F /* libstdc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.tbd"; path = "usr/lib/libstdc++.tbd"; sourceTree = SDKROOT; };
 		EE3B27101FFE2D1100DA5F6F /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		EE3B27111FFE2D2200DA5F6F /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
-		EE3FFC522079AE48004CD2A9 /* qcsClassReviewInsideController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = qcsClassReviewInsideController.h; sourceTree = "<group>"; };
-		EE3FFC532079AE48004CD2A9 /* qcsClassReviewInsideController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = qcsClassReviewInsideController.m; sourceTree = "<group>"; };
-		EE3FFC542079AE48004CD2A9 /* qcsClassReviewInsideController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = qcsClassReviewInsideController.xib; sourceTree = "<group>"; };
-		EE3FFC572079AF10004CD2A9 /* QCSHomeLabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QCSHomeLabel.h; sourceTree = "<group>"; };
-		EE3FFC582079AF10004CD2A9 /* QCSHomeLabel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QCSHomeLabel.m; sourceTree = "<group>"; };
-		EE3FFC5C2079B01B004CD2A9 /* TAAbstractDotView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAAbstractDotView.h; sourceTree = "<group>"; };
-		EE3FFC5D2079B01B004CD2A9 /* TAAbstractDotView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAAbstractDotView.m; sourceTree = "<group>"; };
-		EE3FFC5E2079B01B004CD2A9 /* TAAnimatedDotView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAAnimatedDotView.h; sourceTree = "<group>"; };
-		EE3FFC5F2079B01B004CD2A9 /* TAAnimatedDotView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAAnimatedDotView.m; sourceTree = "<group>"; };
-		EE3FFC602079B01B004CD2A9 /* TADotView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TADotView.h; sourceTree = "<group>"; };
-		EE3FFC612079B01B004CD2A9 /* TADotView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TADotView.m; sourceTree = "<group>"; };
-		EE3FFC622079B01B004CD2A9 /* TAPageControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAPageControl.h; sourceTree = "<group>"; };
-		EE3FFC632079B01B004CD2A9 /* TAPageControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAPageControl.m; sourceTree = "<group>"; };
-		EE3FFC642079B01B004CD2A9 /* SDCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDCollectionViewCell.h; sourceTree = "<group>"; };
-		EE3FFC652079B01B004CD2A9 /* SDCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDCollectionViewCell.m; sourceTree = "<group>"; };
-		EE3FFC662079B01B004CD2A9 /* SDCycleScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDCycleScrollView.h; sourceTree = "<group>"; };
-		EE3FFC672079B01B004CD2A9 /* SDCycleScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDCycleScrollView.m; sourceTree = "<group>"; };
-		EE3FFC682079B01B004CD2A9 /* UIView+SDExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+SDExtension.h"; sourceTree = "<group>"; };
-		EE3FFC692079B01B004CD2A9 /* UIView+SDExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SDExtension.m"; sourceTree = "<group>"; };
-		EE3FFC712079CF83004CD2A9 /* qcsClassReviewInsideClassCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = qcsClassReviewInsideClassCell.h; sourceTree = "<group>"; };
-		EE3FFC722079CF83004CD2A9 /* qcsClassReviewInsideClassCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = qcsClassReviewInsideClassCell.m; sourceTree = "<group>"; };
-		EE3FFC732079CF83004CD2A9 /* qcsClassReviewInsideClassCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = qcsClassReviewInsideClassCell.xib; sourceTree = "<group>"; };
-		EE3FFC762079CF96004CD2A9 /* qcsClassReviewInsideStudentCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = qcsClassReviewInsideStudentCell.h; sourceTree = "<group>"; };
-		EE3FFC772079CF96004CD2A9 /* qcsClassReviewInsideStudentCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = qcsClassReviewInsideStudentCell.m; sourceTree = "<group>"; };
-		EE3FFC782079CF96004CD2A9 /* qcsClassReviewInsideStudentCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = qcsClassReviewInsideStudentCell.xib; sourceTree = "<group>"; };
-		EE3FFC7E2079F167004CD2A9 /* qcsClassDetailMainController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = qcsClassDetailMainController.h; sourceTree = "<group>"; };
-		EE3FFC7F2079F167004CD2A9 /* qcsClassDetailMainController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = qcsClassDetailMainController.m; sourceTree = "<group>"; };
-		EE3FFC812079F1D7004CD2A9 /* qcsClassDetailInsideController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = qcsClassDetailInsideController.h; sourceTree = "<group>"; };
-		EE3FFC822079F1D7004CD2A9 /* qcsClassDetailInsideController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = qcsClassDetailInsideController.m; sourceTree = "<group>"; };
-		EE3FFC832079F1D7004CD2A9 /* qcsClassDetailInsideController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = qcsClassDetailInsideController.xib; sourceTree = "<group>"; };
-		EE3FFC862079F21D004CD2A9 /* qcsClassStasticMainController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = qcsClassStasticMainController.h; sourceTree = "<group>"; };
-		EE3FFC872079F21D004CD2A9 /* qcsClassStasticMainController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = qcsClassStasticMainController.m; sourceTree = "<group>"; };
-		EE3FFC892079F237004CD2A9 /* qcsClassStasticInsideController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = qcsClassStasticInsideController.h; sourceTree = "<group>"; };
-		EE3FFC8A2079F237004CD2A9 /* qcsClassStasticInsideController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = qcsClassStasticInsideController.m; sourceTree = "<group>"; };
-		EE3FFC8B2079F237004CD2A9 /* qcsClassStasticInsideController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = qcsClassStasticInsideController.xib; sourceTree = "<group>"; };
-		EE3FFC8E2079F25F004CD2A9 /* qcsClassInteractionMainController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = qcsClassInteractionMainController.h; sourceTree = "<group>"; };
-		EE3FFC8F2079F25F004CD2A9 /* qcsClassInteractionMainController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = qcsClassInteractionMainController.m; sourceTree = "<group>"; };
-		EE3FFC902079F25F004CD2A9 /* qcsClassInteractionMainController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = qcsClassInteractionMainController.xib; sourceTree = "<group>"; };
-		EE3FFC932079F8D3004CD2A9 /* QCSMainModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QCSMainModel.h; sourceTree = "<group>"; };
-		EE3FFC942079F8D3004CD2A9 /* QCSMainModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QCSMainModel.m; sourceTree = "<group>"; };
-		EE3FFC96207A018F004CD2A9 /* QCSNetHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QCSNetHelper.h; sourceTree = "<group>"; };
-		EE3FFC97207A018F004CD2A9 /* QCSNetHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QCSNetHelper.m; sourceTree = "<group>"; };
 		EE4200001FFE153F0009D064 /* NSString+Empty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Empty.m"; sourceTree = "<group>"; };
 		EE4200011FFE153F0009D064 /* PaiCheCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaiCheCell.h; sourceTree = "<group>"; };
 		EE4200021FFE153F0009D064 /* PaiCheCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaiCheCell.m; sourceTree = "<group>"; };
@@ -2719,54 +2436,23 @@
 		EE4827DA201882EB00605E1B /* CAEvaluateController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CAEvaluateController.h; sourceTree = "<group>"; };
 		EE4827DB201882EB00605E1B /* CAEvaluateController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CAEvaluateController.m; sourceTree = "<group>"; };
 		EE4827DC201882EB00605E1B /* CAEvaluateController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CAEvaluateController.xib; sourceTree = "<group>"; };
-		EE6672362093334900890A73 /* qcsMenuTypeOneCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = qcsMenuTypeOneCell.h; sourceTree = "<group>"; };
-		EE6672372093334900890A73 /* qcsMenuTypeOneCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = qcsMenuTypeOneCell.m; sourceTree = "<group>"; };
-		EE6672382093334900890A73 /* qcsMenuTypeOneCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = qcsMenuTypeOneCell.xib; sourceTree = "<group>"; };
-		EE6672402093351900890A73 /* qcsMenuTypeTwoMenuCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = qcsMenuTypeTwoMenuCell.h; sourceTree = "<group>"; };
-		EE6672412093351900890A73 /* qcsMenuTypeTwoMenuCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = qcsMenuTypeTwoMenuCell.m; sourceTree = "<group>"; };
-		EE6672422093351900890A73 /* qcsMenuTypeTwoMenuCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = qcsMenuTypeTwoMenuCell.xib; sourceTree = "<group>"; };
-		EE6672452094465B00890A73 /* QCSStudyAnalyticsModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QCSStudyAnalyticsModel.h; sourceTree = "<group>"; };
-		EE6672462094465B00890A73 /* QCSStudyAnalyticsModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QCSStudyAnalyticsModel.m; sourceTree = "<group>"; };
-		EE95F2CD2071DD5B0067F2E2 /* QCSchoolCommonHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QCSchoolCommonHeaderView.h; sourceTree = "<group>"; };
-		EE95F2CE2071DD5B0067F2E2 /* QCSchoolCommonHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QCSchoolCommonHeaderView.m; sourceTree = "<group>"; };
-		EE95F2CF2071DD5B0067F2E2 /* QCSchoolCommonItemCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QCSchoolCommonItemCell.h; sourceTree = "<group>"; };
-		EE95F2D02071DD5B0067F2E2 /* QCSchoolCommonItemCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QCSchoolCommonItemCell.m; sourceTree = "<group>"; };
-		EE95F2D12071DD5B0067F2E2 /* QCSchoolCommonItemCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QCSchoolCommonItemCell.xib; sourceTree = "<group>"; };
-		EE95F2D22071DD5B0067F2E2 /* QCSchoolMainItemCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QCSchoolMainItemCell.h; sourceTree = "<group>"; };
-		EE95F2D32071DD5B0067F2E2 /* QCSchoolMainItemCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QCSchoolMainItemCell.m; sourceTree = "<group>"; };
-		EE95F2D42071DD5B0067F2E2 /* QCSchoolMainItemCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QCSchoolMainItemCell.xib; sourceTree = "<group>"; };
-		EE95F2DD207215780067F2E2 /* QCSchoolDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QCSchoolDefine.h; sourceTree = "<group>"; };
-		EE95F2DE207218160067F2E2 /* QCSSourceHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QCSSourceHandler.h; sourceTree = "<group>"; };
-		EE95F2DF207218160067F2E2 /* QCSSourceHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QCSSourceHandler.m; sourceTree = "<group>"; };
-		EE95F2E1207224010067F2E2 /* QCSchoolMainController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QCSchoolMainController.h; sourceTree = "<group>"; };
-		EE95F2E2207224010067F2E2 /* QCSchoolMainController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QCSchoolMainController.m; sourceTree = "<group>"; };
-		EE95F3222079A86B0067F2E2 /* qcsClassReviewMainController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = qcsClassReviewMainController.h; sourceTree = "<group>"; };
-		EE95F3232079A86B0067F2E2 /* qcsClassReviewMainController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = qcsClassReviewMainController.m; sourceTree = "<group>"; };
-		EE95F3242079A86B0067F2E2 /* qcsClassReviewMainController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = qcsClassReviewMainController.xib; sourceTree = "<group>"; };
 		EE99585720207EA3002D6096 /* CAClassDetailController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CAClassDetailController.h; sourceTree = "<group>"; };
 		EE99585820207EA3002D6096 /* CAClassDetailController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CAClassDetailController.m; sourceTree = "<group>"; };
 		EE99585920207EA3002D6096 /* CAClassDetailController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CAClassDetailController.xib; sourceTree = "<group>"; };
-		EEAB0DD320AAC5130034DBE7 /* qcsHomeworkSearchController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = qcsHomeworkSearchController.h; sourceTree = "<group>"; };
-		EEAB0DD420AAC5130034DBE7 /* qcsHomeworkSearchController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = qcsHomeworkSearchController.m; sourceTree = "<group>"; };
-		EEAB0DD520AAC5130034DBE7 /* qcsHomeworkSearchController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = qcsHomeworkSearchController.xib; sourceTree = "<group>"; };
-		EEAB0DD820AACEB90034DBE7 /* qcsHomeworkChooseTypeController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = qcsHomeworkChooseTypeController.h; sourceTree = "<group>"; };
-		EEAB0DD920AACEB90034DBE7 /* qcsHomeworkChooseTypeController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = qcsHomeworkChooseTypeController.m; sourceTree = "<group>"; };
-		EEAB0DDA20AACEB90034DBE7 /* qcsHomeworkChooseTypeController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = qcsHomeworkChooseTypeController.xib; sourceTree = "<group>"; };
-		EEAB0DDD20AACECA0034DBE7 /* qcsHomeworkObjectController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = qcsHomeworkObjectController.h; sourceTree = "<group>"; };
-		EEAB0DDE20AACECA0034DBE7 /* qcsHomeworkObjectController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = qcsHomeworkObjectController.m; sourceTree = "<group>"; };
-		EEAB0DDF20AACECA0034DBE7 /* qcsHomeworkObjectController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = qcsHomeworkObjectController.xib; sourceTree = "<group>"; };
-		EEAB0DE220AC1F2F0034DBE7 /* ZXCollectionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXCollectionCell.m; sourceTree = "<group>"; };
-		EEAB0DE320AC1F2F0034DBE7 /* ZXCollectionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXCollectionCell.h; sourceTree = "<group>"; };
-		EEB1ECA62099A21D0005DAEB /* qcsStudyAnalyticsSearcuClassController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = qcsStudyAnalyticsSearcuClassController.h; sourceTree = "<group>"; };
-		EEB1ECA72099A21D0005DAEB /* qcsStudyAnalyticsSearcuClassController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = qcsStudyAnalyticsSearcuClassController.m; sourceTree = "<group>"; };
-		EEB1ECA82099A21E0005DAEB /* qcsStudyAnalyticsSearcuClassController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = qcsStudyAnalyticsSearcuClassController.xib; sourceTree = "<group>"; };
-		EEB1ECAB2099A2300005DAEB /* qcsStudyAnalyticsSearcuStudentController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = qcsStudyAnalyticsSearcuStudentController.h; sourceTree = "<group>"; };
-		EEB1ECAC2099A2300005DAEB /* qcsStudyAnalyticsSearcuStudentController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = qcsStudyAnalyticsSearcuStudentController.m; sourceTree = "<group>"; };
-		EEB1ECAD2099A2300005DAEB /* qcsStudyAnalyticsSearcuStudentController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = qcsStudyAnalyticsSearcuStudentController.xib; sourceTree = "<group>"; };
-		EEB1ECB02099A7830005DAEB /* QCSchoolTagHandle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QCSchoolTagHandle.h; sourceTree = "<group>"; };
-		EEB1ECB12099A7830005DAEB /* QCSchoolTagHandle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QCSchoolTagHandle.m; sourceTree = "<group>"; };
-		EEB1ECB3209AF53E0005DAEB /* qcsStudyAnalyticStudentController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = qcsStudyAnalyticStudentController.h; sourceTree = "<group>"; };
-		EEB1ECB4209AF53E0005DAEB /* qcsStudyAnalyticStudentController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = qcsStudyAnalyticStudentController.m; sourceTree = "<group>"; };
+		EEA8872822A0DC03004BA812 /* UIView+SDExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+SDExtension.h"; sourceTree = "<group>"; };
+		EEA8872922A0DC03004BA812 /* SDCycleScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDCycleScrollView.h; sourceTree = "<group>"; };
+		EEA8872A22A0DC03004BA812 /* SDCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDCollectionViewCell.h; sourceTree = "<group>"; };
+		EEA8872B22A0DC03004BA812 /* SDCycleScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDCycleScrollView.m; sourceTree = "<group>"; };
+		EEA8872C22A0DC03004BA812 /* UIView+SDExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SDExtension.m"; sourceTree = "<group>"; };
+		EEA8872D22A0DC03004BA812 /* SDCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDCollectionViewCell.m; sourceTree = "<group>"; };
+		EEA8872F22A0DC03004BA812 /* TAAbstractDotView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAAbstractDotView.h; sourceTree = "<group>"; };
+		EEA8873022A0DC03004BA812 /* TADotView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TADotView.m; sourceTree = "<group>"; };
+		EEA8873122A0DC03004BA812 /* TAPageControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAPageControl.m; sourceTree = "<group>"; };
+		EEA8873222A0DC03004BA812 /* TAAnimatedDotView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAAnimatedDotView.m; sourceTree = "<group>"; };
+		EEA8873322A0DC03004BA812 /* TAAbstractDotView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAAbstractDotView.m; sourceTree = "<group>"; };
+		EEA8873422A0DC03004BA812 /* TADotView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TADotView.h; sourceTree = "<group>"; };
+		EEA8873522A0DC03004BA812 /* TAAnimatedDotView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAAnimatedDotView.h; sourceTree = "<group>"; };
+		EEA8873622A0DC03004BA812 /* TAPageControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAPageControl.h; sourceTree = "<group>"; };
 		EEB841D9201B153D00E7EF14 /* CAEvaluateItemCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CAEvaluateItemCell.h; sourceTree = "<group>"; };
 		EEB841DA201B153D00E7EF14 /* CAEvaluateItemCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CAEvaluateItemCell.m; sourceTree = "<group>"; };
 		EEB841DB201B153D00E7EF14 /* CAEvaluateItemCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CAEvaluateItemCell.xib; sourceTree = "<group>"; };
@@ -2785,15 +2471,6 @@
 		EEB841F1201B325D00E7EF14 /* LLEyesLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLEyesLayer.m; sourceTree = "<group>"; };
 		EEB841F2201B325D00E7EF14 /* LLSwitch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLSwitch.h; sourceTree = "<group>"; };
 		EEB841F3201B325D00E7EF14 /* LLSwitch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLSwitch.m; sourceTree = "<group>"; };
-		EEE0516020A5892500FAB68D /* qcsHomeworkMainController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = qcsHomeworkMainController.h; sourceTree = "<group>"; };
-		EEE0516120A5892500FAB68D /* qcsHomeworkMainController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = qcsHomeworkMainController.m; sourceTree = "<group>"; };
-		EEE0516220A5892500FAB68D /* qcsHomeworkMainController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = qcsHomeworkMainController.xib; sourceTree = "<group>"; };
-		EEE0516520A58A5B00FAB68D /* qcsHomeworkReleaseController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = qcsHomeworkReleaseController.h; sourceTree = "<group>"; };
-		EEE0516620A58A5B00FAB68D /* qcsHomeworkReleaseController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = qcsHomeworkReleaseController.m; sourceTree = "<group>"; };
-		EEE0516720A58A5B00FAB68D /* qcsHomeworkReleaseController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = qcsHomeworkReleaseController.xib; sourceTree = "<group>"; };
-		EEEBC1B820AD8A24005EDACE /* qcsHomeworkSelectCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = qcsHomeworkSelectCell.h; sourceTree = "<group>"; };
-		EEEBC1B920AD8A24005EDACE /* qcsHomeworkSelectCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = qcsHomeworkSelectCell.m; sourceTree = "<group>"; };
-		EEEBC1BA20AD8A24005EDACE /* qcsHomeworkSelectCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = qcsHomeworkSelectCell.xib; sourceTree = "<group>"; };
 		EEF58EA02246825200DBD251 /* TYHPrivateController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TYHPrivateController.xib; sourceTree = "<group>"; };
 		EEF58EA12246825200DBD251 /* TYHPrivateController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYHPrivateController.m; sourceTree = "<group>"; };
 		EEF58EA22246825300DBD251 /* TYHPrivateController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYHPrivateController.h; sourceTree = "<group>"; };
@@ -2822,20 +2499,17 @@
 				61530BE71BABAD3B00FE50CC /* libsqlite3.0.tbd in Frameworks */,
 				BDA64F1A1CA38A3800BCF04D /* VideoToolbox.framework in Frameworks */,
 				EE4203F41FFE15420009D064 /* MOBFoundation.framework in Frameworks */,
-				EE22FCE320B2D1B7005E26A1 /* libmp3lame.a in Frameworks */,
 				E4168E2B1B6A364F00F3D35D /* CoreMedia.framework in Frameworks */,
 				E4168E291B6A364800F3D35D /* AudioToolbox.framework in Frameworks */,
 				86B7F5B61AE88C040040A547 /* CoreTelephony.framework in Frameworks */,
 				EE4203E91FFE15420009D064 /* jpush-ios-3.0.2.a in Frameworks */,
 				EE4203E51FFE15420009D064 /* BaiduMapAPI_Base.framework in Frameworks */,
 				EE4203F61FFE15420009D064 /* ShareSDKConnector.framework in Frameworks */,
-				EE22FCF220B2D1B7005E26A1 /* libopencore-amrnb.a in Frameworks */,
 				61E8F90E1AA169F000F51DAF /* MapKit.framework in Frameworks */,
 				EE4203EA1FFE15420009D064 /* JSPatchPlatform.framework in Frameworks */,
 				EE3B27121FFE2D2200DA5F6F /* libsqlite3.tbd in Frameworks */,
 				EE4203F01FFE15420009D064 /* ShareSDKUI.framework in Frameworks */,
 				EE3B270D1FFE2CEF00DA5F6F /* libicucore.tbd in Frameworks */,
-				EE22FCF320B2D1B7005E26A1 /* libopencore-amrwb.a in Frameworks */,
 				EE3B270F1FFE2D0900DA5F6F /* libstdc++.tbd in Frameworks */,
 				AEA87FE11A81CAD600ACC3BA /* AVFoundation.framework in Frameworks */,
 				EE4203ED1FFE15420009D064 /* ShareSDK.framework in Frameworks */,
@@ -3715,23 +3389,6 @@
 			path = LayoutConfig;
 			sourceTree = "<group>";
 		};
-		EE0BDBD62091D2CB00AAD516 /* CWLateralSlide */ = {
-			isa = PBXGroup;
-			children = (
-				EE0BDBD72091D2CB00AAD516 /* CWDrawerTransition.h */,
-				EE0BDBD82091D2CB00AAD516 /* CWDrawerTransition.m */,
-				EE0BDBD92091D2CB00AAD516 /* CWInteractiveTransition.h */,
-				EE0BDBDA2091D2CB00AAD516 /* CWInteractiveTransition.m */,
-				EE0BDBDB2091D2CB00AAD516 /* CWLateralSlideAnimator.h */,
-				EE0BDBDC2091D2CB00AAD516 /* CWLateralSlideAnimator.m */,
-				EE0BDBDD2091D2CB00AAD516 /* CWLateralSlideConfiguration.h */,
-				EE0BDBDE2091D2CB00AAD516 /* CWLateralSlideConfiguration.m */,
-				EE0BDBDF2091D2CB00AAD516 /* UIViewController+CWLateralSlide.h */,
-				EE0BDBE02091D2CB00AAD516 /* UIViewController+CWLateralSlide.m */,
-			);
-			path = CWLateralSlide;
-			sourceTree = "<group>";
-		};
 		EE1479002010831A0099CC02 /* 课堂考勤 */ = {
 			isa = PBXGroup;
 			children = (
@@ -3788,178 +3445,6 @@
 			path = V;
 			sourceTree = "<group>";
 		};
-		EE22FCA220B2B321005E26A1 /* VideoHandler */ = {
-			isa = PBXGroup;
-			children = (
-				EE22FCA320B2B321005E26A1 /* KJCamera */,
-			);
-			path = VideoHandler;
-			sourceTree = "<group>";
-		};
-		EE22FCA320B2B321005E26A1 /* KJCamera */ = {
-			isa = PBXGroup;
-			children = (
-				EE22FCA420B2B321005E26A1 /* HAVPlayer.h */,
-				EE22FCA520B2B321005E26A1 /* HAVPlayer.m */,
-				EE22FCA620B2B321005E26A1 /* HProgressView.h */,
-				EE22FCA720B2B321005E26A1 /* HProgressView.m */,
-				EE22FCA820B2B321005E26A1 /* HVideoViewController.h */,
-				EE22FCA920B2B321005E26A1 /* HVideoViewController.m */,
-				EE22FCAA20B2B321005E26A1 /* HVideoViewController.xib */,
-				EE22FCAB20B2B321005E26A1 /* images */,
-			);
-			path = KJCamera;
-			sourceTree = "<group>";
-		};
-		EE22FCAB20B2B321005E26A1 /* images */ = {
-			isa = PBXGroup;
-			children = (
-				EE22FCAC20B2B321005E26A1 /* btn_video_flip_camera@2x.png */,
-			);
-			path = images;
-			sourceTree = "<group>";
-		};
-		EE22FCB920B2BF4A005E26A1 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				EE22FCBA20B2BF60005E26A1 /* qcsHomeworkModel.h */,
-				EE22FCBB20B2BF60005E26A1 /* qcsHomeworkModel.m */,
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		EE22FCBD20B2D1B6005E26A1 /* LGSound */ = {
-			isa = PBXGroup;
-			children = (
-				EE22FCF920B31994005E26A1 /* MBProgressHU_DDD.h */,
-				EE22FCFA20B31995005E26A1 /* MBProgressHU_DDD.m */,
-				EE22FCBE20B2D1B6005E26A1 /* lame */,
-				EE22FCC120B2D1B6005E26A1 /* LGAudioKit.h */,
-				EE22FCC220B2D1B6005E26A1 /* LGMessageModel.h */,
-				EE22FCC320B2D1B6005E26A1 /* LGMessageModel.m */,
-				EE22FCC420B2D1B6005E26A1 /* LGSoundPlayer */,
-				EE22FCC720B2D1B6005E26A1 /* LGSoundRecorder */,
-				EE22FCCA20B2D1B6005E26A1 /* Resource */,
-				EE22FCD520B2D1B6005E26A1 /* Vendor */,
-			);
-			path = LGSound;
-			sourceTree = "<group>";
-		};
-		EE22FCBE20B2D1B6005E26A1 /* lame */ = {
-			isa = PBXGroup;
-			children = (
-				EE22FCBF20B2D1B6005E26A1 /* lame.h */,
-				EE22FCC020B2D1B6005E26A1 /* libmp3lame.a */,
-			);
-			path = lame;
-			sourceTree = "<group>";
-		};
-		EE22FCC420B2D1B6005E26A1 /* LGSoundPlayer */ = {
-			isa = PBXGroup;
-			children = (
-				EE22FCC520B2D1B6005E26A1 /* LGAudioPlayer.h */,
-				EE22FCC620B2D1B6005E26A1 /* LGAudioPlayer.m */,
-			);
-			path = LGSoundPlayer;
-			sourceTree = "<group>";
-		};
-		EE22FCC720B2D1B6005E26A1 /* LGSoundRecorder */ = {
-			isa = PBXGroup;
-			children = (
-				EE22FCC820B2D1B6005E26A1 /* LGSoundRecorder.h */,
-				EE22FCC920B2D1B6005E26A1 /* LGSoundRecorder.m */,
-			);
-			path = LGSoundRecorder;
-			sourceTree = "<group>";
-		};
-		EE22FCCA20B2D1B6005E26A1 /* Resource */ = {
-			isa = PBXGroup;
-			children = (
-				EE22FCCB20B2D1B6005E26A1 /* toast_cancelsend@2x.png */,
-				EE22FCCC20B2D1B6005E26A1 /* toast_microphone@2x.png */,
-				EE22FCCD20B2D1B6005E26A1 /* toast_timeshort@2x.png */,
-				EE22FCCE20B2D1B6005E26A1 /* toast_vol_1@2x.png */,
-				EE22FCCF20B2D1B6005E26A1 /* toast_vol_2@2x.png */,
-				EE22FCD020B2D1B6005E26A1 /* toast_vol_3@2x.png */,
-				EE22FCD120B2D1B6005E26A1 /* toast_vol_4@2x.png */,
-				EE22FCD220B2D1B6005E26A1 /* toast_vol_5@2x.png */,
-				EE22FCD320B2D1B6005E26A1 /* toast_vol_6@2x.png */,
-				EE22FCD420B2D1B6005E26A1 /* toast_vol_7@2x.png */,
-			);
-			path = Resource;
-			sourceTree = "<group>";
-		};
-		EE22FCD520B2D1B6005E26A1 /* Vendor */ = {
-			isa = PBXGroup;
-			children = (
-				EE22FCD620B2D1B6005E26A1 /* AMR */,
-			);
-			path = Vendor;
-			sourceTree = "<group>";
-		};
-		EE22FCD620B2D1B6005E26A1 /* AMR */ = {
-			isa = PBXGroup;
-			children = (
-				EE22FCD720B2D1B6005E26A1 /* amrFileCodec.h */,
-				EE22FCD820B2D1B6005E26A1 /* amrFileCodec.m */,
-				EE22FCD920B2D1B6005E26A1 /* include */,
-				EE22FCE020B2D1B6005E26A1 /* lib */,
-			);
-			path = AMR;
-			sourceTree = "<group>";
-		};
-		EE22FCD920B2D1B6005E26A1 /* include */ = {
-			isa = PBXGroup;
-			children = (
-				EE22FCDA20B2D1B6005E26A1 /* opencore-amrnb */,
-				EE22FCDD20B2D1B6005E26A1 /* opencore-amrwb */,
-			);
-			path = include;
-			sourceTree = "<group>";
-		};
-		EE22FCDA20B2D1B6005E26A1 /* opencore-amrnb */ = {
-			isa = PBXGroup;
-			children = (
-				EE22FCDB20B2D1B6005E26A1 /* interf_dec.h */,
-				EE22FCDC20B2D1B6005E26A1 /* interf_enc.h */,
-			);
-			path = "opencore-amrnb";
-			sourceTree = "<group>";
-		};
-		EE22FCDD20B2D1B6005E26A1 /* opencore-amrwb */ = {
-			isa = PBXGroup;
-			children = (
-				EE22FCDE20B2D1B6005E26A1 /* dec_if.h */,
-				EE22FCDF20B2D1B6005E26A1 /* if_rom.h */,
-			);
-			path = "opencore-amrwb";
-			sourceTree = "<group>";
-		};
-		EE22FCE020B2D1B6005E26A1 /* lib */ = {
-			isa = PBXGroup;
-			children = (
-				EE22FCE120B2D1B6005E26A1 /* libopencore-amrnb.a */,
-				EE22FCE220B2D1B6005E26A1 /* libopencore-amrwb.a */,
-			);
-			path = lib;
-			sourceTree = "<group>";
-		};
-		EE2E001A207B651A0062AB74 /* LYEmptyView */ = {
-			isa = PBXGroup;
-			children = (
-				EE2E001B207B651A0062AB74 /* LYEmptyBaseView.h */,
-				EE2E001C207B651A0062AB74 /* LYEmptyBaseView.m */,
-				EE2E001D207B651A0062AB74 /* LYEmptyView.h */,
-				EE2E001E207B651A0062AB74 /* LYEmptyView.m */,
-				EE2E001F207B651A0062AB74 /* LYEmptyViewHeader.h */,
-				EE2E0020207B651A0062AB74 /* UIScrollView+Empty.h */,
-				EE2E0021207B651A0062AB74 /* UIScrollView+Empty.m */,
-				EE2E0022207B651A0062AB74 /* UIView+LYExtension.h */,
-				EE2E0023207B651A0062AB74 /* UIView+LYExtension.m */,
-			);
-			path = LYEmptyView;
-			sourceTree = "<group>";
-		};
 		EE3A679A2011E02A001F1A8E /* KPDropMenu */ = {
 			isa = PBXGroup;
 			children = (
@@ -3967,101 +3452,6 @@
 				EE3A679C2011E02A001F1A8E /* KPDropMenu.m */,
 			);
 			path = KPDropMenu;
-			sourceTree = "<group>";
-		};
-		EE3FFC5A2079B01B004CD2A9 /* SDCycleScrollView */ = {
-			isa = PBXGroup;
-			children = (
-				EE3FFC5B2079B01B004CD2A9 /* PageControl */,
-				EE3FFC642079B01B004CD2A9 /* SDCollectionViewCell.h */,
-				EE3FFC652079B01B004CD2A9 /* SDCollectionViewCell.m */,
-				EE3FFC662079B01B004CD2A9 /* SDCycleScrollView.h */,
-				EE3FFC672079B01B004CD2A9 /* SDCycleScrollView.m */,
-				EE3FFC682079B01B004CD2A9 /* UIView+SDExtension.h */,
-				EE3FFC692079B01B004CD2A9 /* UIView+SDExtension.m */,
-			);
-			name = SDCycleScrollView;
-			path = "../../../../../../../../../../../Downloads/SDCycleScrollView-master/SDCycleScrollView/Lib/SDCycleScrollView";
-			sourceTree = "<group>";
-		};
-		EE3FFC5B2079B01B004CD2A9 /* PageControl */ = {
-			isa = PBXGroup;
-			children = (
-				EE3FFC5C2079B01B004CD2A9 /* TAAbstractDotView.h */,
-				EE3FFC5D2079B01B004CD2A9 /* TAAbstractDotView.m */,
-				EE3FFC5E2079B01B004CD2A9 /* TAAnimatedDotView.h */,
-				EE3FFC5F2079B01B004CD2A9 /* TAAnimatedDotView.m */,
-				EE3FFC602079B01B004CD2A9 /* TADotView.h */,
-				EE3FFC612079B01B004CD2A9 /* TADotView.m */,
-				EE3FFC622079B01B004CD2A9 /* TAPageControl.h */,
-				EE3FFC632079B01B004CD2A9 /* TAPageControl.m */,
-			);
-			path = PageControl;
-			sourceTree = "<group>";
-		};
-		EE3FFC7B2079F061004CD2A9 /* 师生互动表 */ = {
-			isa = PBXGroup;
-			children = (
-				EE3FFC8E2079F25F004CD2A9 /* qcsClassInteractionMainController.h */,
-				EE3FFC8F2079F25F004CD2A9 /* qcsClassInteractionMainController.m */,
-				EE3FFC902079F25F004CD2A9 /* qcsClassInteractionMainController.xib */,
-			);
-			path = "师生互动表";
-			sourceTree = "<group>";
-		};
-		EE3FFC7C2079F061004CD2A9 /* 统计报表 */ = {
-			isa = PBXGroup;
-			children = (
-				EE3FFC862079F21D004CD2A9 /* qcsClassStasticMainController.h */,
-				EE3FFC872079F21D004CD2A9 /* qcsClassStasticMainController.m */,
-				EE3FFC892079F237004CD2A9 /* qcsClassStasticInsideController.h */,
-				EE3FFC8A2079F237004CD2A9 /* qcsClassStasticInsideController.m */,
-				EE3FFC8B2079F237004CD2A9 /* qcsClassStasticInsideController.xib */,
-				EE2E0028207B6C3C0062AB74 /* qcsClassStasticInsideXTTJCell.h */,
-				EE2E0029207B6C3C0062AB74 /* qcsClassStasticInsideXTTJCell.m */,
-				EE2E002A207B6C3C0062AB74 /* qcsClassStasticInsideXTTJCell.xib */,
-				EE2E0042207BA70E0062AB74 /* qcsClassStasticInsideDTBCell.h */,
-				EE2E0043207BA70E0062AB74 /* qcsClassStasticInsideDTBCell.m */,
-				EE2E0044207BA70E0062AB74 /* qcsClassStasticInsideDTBCell.xib */,
-				EE2E002D207B6EBB0062AB74 /* qcsClassStasticInsideXTTJHeader.h */,
-				EE2E002E207B6EBB0062AB74 /* qcsClassStasticInsideXTTJHeader.m */,
-				EE2E003F207BA5660062AB74 /* qcsClassStasticInsideDTBHeader.h */,
-				EE2E0040207BA5660062AB74 /* qcsClassStasticInsideDTBHeader.m */,
-			);
-			path = "统计报表";
-			sourceTree = "<group>";
-		};
-		EE3FFC7D2079F062004CD2A9 /* 课堂详情 */ = {
-			isa = PBXGroup;
-			children = (
-				EE3FFC7E2079F167004CD2A9 /* qcsClassDetailMainController.h */,
-				EE3FFC7F2079F167004CD2A9 /* qcsClassDetailMainController.m */,
-				EE3FFC812079F1D7004CD2A9 /* qcsClassDetailInsideController.h */,
-				EE3FFC822079F1D7004CD2A9 /* qcsClassDetailInsideController.m */,
-				EE3FFC832079F1D7004CD2A9 /* qcsClassDetailInsideController.xib */,
-				EE2E0030207B782A0062AB74 /* qcsClassDetailInsideSXBJCell.h */,
-				EE2E0031207B782A0062AB74 /* qcsClassDetailInsideSXBJCell.m */,
-				EE2E0032207B782A0062AB74 /* qcsClassDetailInsideSXBJCell.xib */,
-				EE2E0035207B78950062AB74 /* qcsClassDetailInsideXZTCell.h */,
-				EE2E0036207B78950062AB74 /* qcsClassDetailInsideXZTCell.m */,
-				EE2E0037207B78950062AB74 /* qcsClassDetailInsideXZTCell.xib */,
-				EE2E003A207B78AD0062AB74 /* qcsClassDetailInsideJXKJCell.h */,
-				EE2E003B207B78AD0062AB74 /* qcsClassDetailInsideJXKJCell.m */,
-				EE2E003C207B78AD0062AB74 /* qcsClassDetailInsideJXKJCell.xib */,
-				EE2E004D207DEE6B0062AB74 /* qcsClassDetailInsideSXBJDetailController.h */,
-				EE2E004E207DEE6B0062AB74 /* qcsClassDetailInsideSXBJDetailController.m */,
-				EE2E004F207DEE6B0062AB74 /* qcsClassDetailInsideSXBJDetailController.xib */,
-				EE2E0057207DF3760062AB74 /* qcsClassDetailInsideXZTDetailController.h */,
-				EE2E0058207DF3760062AB74 /* qcsClassDetailInsideXZTDetailController.m */,
-				EE2E0059207DF3760062AB74 /* qcsClassDetailInsideXZTDetailController.xib */,
-				EE2E005C207DF6990062AB74 /* qcsClassDetailInsideXZTDetailCell.h */,
-				EE2E005D207DF6990062AB74 /* qcsClassDetailInsideXZTDetailCell.m */,
-				EE2E005E207DF6990062AB74 /* qcsClassDetailInsideXZTDetailCell.xib */,
-				EE2E0096207E063C0062AB74 /* qcsClassDetailInsideXZTStudentCell.h */,
-				EE2E0097207E063C0062AB74 /* qcsClassDetailInsideXZTStudentCell.m */,
-				EE2E0098207E063C0062AB74 /* qcsClassDetailInsideXZTStudentCell.xib */,
-			);
-			path = "课堂详情";
 			sourceTree = "<group>";
 		};
 		EE42000F1FFE153F0009D064 /* Controller */ = {
@@ -4826,6 +4216,7 @@
 		EE42FBFD1FFE153E0009D064 /* Vendors */ = {
 			isa = PBXGroup;
 			children = (
+				EEA8872722A0DC03004BA812 /* SDCycleScrollView */,
 				EEB841ED201B325D00E7EF14 /* LLSwitch */,
 				EEB841E3201B200600E7EF14 /* PPNumberButton */,
 				EE3A679A2011E02A001F1A8E /* KPDropMenu */,
@@ -5431,7 +4822,6 @@
 		EE42FCE91FFE153E0009D064 /* apps */ = {
 			isa = PBXGroup;
 			children = (
-				EE95F2C42071DD5B0067F2E2 /* 青蚕学堂 */,
 				EE1479002010831A0099CC02 /* 课堂考勤 */,
 				EE42FCEA1FFE153E0009D064 /* 作业 */,
 				EE42FD071FFE153E0009D064 /* 库房管理 */,
@@ -6706,223 +6096,33 @@
 			path = LDCalenderView;
 			sourceTree = "<group>";
 		};
-		EE95F2C42071DD5B0067F2E2 /* 青蚕学堂 */ = {
+		EEA8872722A0DC03004BA812 /* SDCycleScrollView */ = {
 			isa = PBXGroup;
 			children = (
-				EE95F2E7207233F80067F2E2 /* Vendor */,
-				EE95F2C52071DD5B0067F2E2 /* C */,
-				EE95F2C92071DD5B0067F2E2 /* Common */,
-				EE95F2CA2071DD5B0067F2E2 /* M */,
-				EE95F2CB2071DD5B0067F2E2 /* V */,
+				EEA8872822A0DC03004BA812 /* UIView+SDExtension.h */,
+				EEA8872922A0DC03004BA812 /* SDCycleScrollView.h */,
+				EEA8872A22A0DC03004BA812 /* SDCollectionViewCell.h */,
+				EEA8872B22A0DC03004BA812 /* SDCycleScrollView.m */,
+				EEA8872C22A0DC03004BA812 /* UIView+SDExtension.m */,
+				EEA8872D22A0DC03004BA812 /* SDCollectionViewCell.m */,
+				EEA8872E22A0DC03004BA812 /* PageControl */,
 			);
-			path = "青蚕学堂";
+			path = SDCycleScrollView;
 			sourceTree = "<group>";
 		};
-		EE95F2C52071DD5B0067F2E2 /* C */ = {
+		EEA8872E22A0DC03004BA812 /* PageControl */ = {
 			isa = PBXGroup;
 			children = (
-				EE95F31A2079A5C80067F2E2 /* 错题归档 */,
-				EE95F31B2079A5C80067F2E2 /* 课后回顾 */,
-				EE95F31D2079A5C90067F2E2 /* 课后作业 */,
-				EE95F3192079A5C80067F2E2 /* 微课平台 */,
-				EE95F31E2079A5C90067F2E2 /* 学情分析 */,
-				EE95F31C2079A5C90067F2E2 /* 云备课 */,
-				EE95F2E1207224010067F2E2 /* QCSchoolMainController.h */,
-				EE95F2E2207224010067F2E2 /* QCSchoolMainController.m */,
+				EEA8872F22A0DC03004BA812 /* TAAbstractDotView.h */,
+				EEA8873022A0DC03004BA812 /* TADotView.m */,
+				EEA8873122A0DC03004BA812 /* TAPageControl.m */,
+				EEA8873222A0DC03004BA812 /* TAAnimatedDotView.m */,
+				EEA8873322A0DC03004BA812 /* TAAbstractDotView.m */,
+				EEA8873422A0DC03004BA812 /* TADotView.h */,
+				EEA8873522A0DC03004BA812 /* TAAnimatedDotView.h */,
+				EEA8873622A0DC03004BA812 /* TAPageControl.h */,
 			);
-			path = C;
-			sourceTree = "<group>";
-		};
-		EE95F2C92071DD5B0067F2E2 /* Common */ = {
-			isa = PBXGroup;
-			children = (
-				EE95F2DD207215780067F2E2 /* QCSchoolDefine.h */,
-				EEB1ECB02099A7830005DAEB /* QCSchoolTagHandle.h */,
-				EEB1ECB12099A7830005DAEB /* QCSchoolTagHandle.m */,
-			);
-			path = Common;
-			sourceTree = "<group>";
-		};
-		EE95F2CA2071DD5B0067F2E2 /* M */ = {
-			isa = PBXGroup;
-			children = (
-				EE95F2DE207218160067F2E2 /* QCSSourceHandler.h */,
-				EE95F2DF207218160067F2E2 /* QCSSourceHandler.m */,
-				EE3FFC96207A018F004CD2A9 /* QCSNetHelper.h */,
-				EE3FFC97207A018F004CD2A9 /* QCSNetHelper.m */,
-				EE3FFC932079F8D3004CD2A9 /* QCSMainModel.h */,
-				EE3FFC942079F8D3004CD2A9 /* QCSMainModel.m */,
-				EE2E0047207C6BB70062AB74 /* QCSStasticModel.h */,
-				EE2E0048207C6BB70062AB74 /* QCSStasticModel.m */,
-				EE2E004A207DAC820062AB74 /* QCSClassDetailModel.h */,
-				EE2E004B207DAC820062AB74 /* QCSClassDetailModel.m */,
-				EE6672452094465B00890A73 /* QCSStudyAnalyticsModel.h */,
-				EE6672462094465B00890A73 /* QCSStudyAnalyticsModel.m */,
-			);
-			path = M;
-			sourceTree = "<group>";
-		};
-		EE95F2CB2071DD5B0067F2E2 /* V */ = {
-			isa = PBXGroup;
-			children = (
-				EE95F2CC2071DD5B0067F2E2 /* HeaderView */,
-				EE95F2CF2071DD5B0067F2E2 /* QCSchoolCommonItemCell.h */,
-				EE95F2D02071DD5B0067F2E2 /* QCSchoolCommonItemCell.m */,
-				EE95F2D12071DD5B0067F2E2 /* QCSchoolCommonItemCell.xib */,
-				EE95F2D22071DD5B0067F2E2 /* QCSchoolMainItemCell.h */,
-				EE95F2D32071DD5B0067F2E2 /* QCSchoolMainItemCell.m */,
-				EE95F2D42071DD5B0067F2E2 /* QCSchoolMainItemCell.xib */,
-			);
-			path = V;
-			sourceTree = "<group>";
-		};
-		EE95F2CC2071DD5B0067F2E2 /* HeaderView */ = {
-			isa = PBXGroup;
-			children = (
-				EE95F2CD2071DD5B0067F2E2 /* QCSchoolCommonHeaderView.h */,
-				EE95F2CE2071DD5B0067F2E2 /* QCSchoolCommonHeaderView.m */,
-			);
-			path = HeaderView;
-			sourceTree = "<group>";
-		};
-		EE95F2E7207233F80067F2E2 /* Vendor */ = {
-			isa = PBXGroup;
-			children = (
-				EE22FCBD20B2D1B6005E26A1 /* LGSound */,
-				EE22FCA220B2B321005E26A1 /* VideoHandler */,
-				EE0BDBD62091D2CB00AAD516 /* CWLateralSlide */,
-				EE2E001A207B651A0062AB74 /* LYEmptyView */,
-				EE3FFC5A2079B01B004CD2A9 /* SDCycleScrollView */,
-				EE95F2FF207383F00067F2E2 /* SlideView */,
-			);
-			path = Vendor;
-			sourceTree = "<group>";
-		};
-		EE95F2FF207383F00067F2E2 /* SlideView */ = {
-			isa = PBXGroup;
-			children = (
-				EE3FFC572079AF10004CD2A9 /* QCSHomeLabel.h */,
-				EE3FFC582079AF10004CD2A9 /* QCSHomeLabel.m */,
-			);
-			path = SlideView;
-			sourceTree = "<group>";
-		};
-		EE95F3192079A5C80067F2E2 /* 微课平台 */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "微课平台";
-			sourceTree = "<group>";
-		};
-		EE95F31A2079A5C80067F2E2 /* 错题归档 */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "错题归档";
-			sourceTree = "<group>";
-		};
-		EE95F31B2079A5C80067F2E2 /* 课后回顾 */ = {
-			isa = PBXGroup;
-			children = (
-				EE3FFC7D2079F062004CD2A9 /* 课堂详情 */,
-				EE3FFC7B2079F061004CD2A9 /* 师生互动表 */,
-				EE3FFC7C2079F061004CD2A9 /* 统计报表 */,
-				EE95F3222079A86B0067F2E2 /* qcsClassReviewMainController.h */,
-				EE95F3232079A86B0067F2E2 /* qcsClassReviewMainController.m */,
-				EE95F3242079A86B0067F2E2 /* qcsClassReviewMainController.xib */,
-				EE3FFC522079AE48004CD2A9 /* qcsClassReviewInsideController.h */,
-				EE3FFC532079AE48004CD2A9 /* qcsClassReviewInsideController.m */,
-				EE3FFC542079AE48004CD2A9 /* qcsClassReviewInsideController.xib */,
-				EE3FFC712079CF83004CD2A9 /* qcsClassReviewInsideClassCell.h */,
-				EE3FFC722079CF83004CD2A9 /* qcsClassReviewInsideClassCell.m */,
-				EE3FFC732079CF83004CD2A9 /* qcsClassReviewInsideClassCell.xib */,
-				EE3FFC762079CF96004CD2A9 /* qcsClassReviewInsideStudentCell.h */,
-				EE3FFC772079CF96004CD2A9 /* qcsClassReviewInsideStudentCell.m */,
-				EE3FFC782079CF96004CD2A9 /* qcsClassReviewInsideStudentCell.xib */,
-				EE2E009B207E1F710062AB74 /* qcsClassReviewSearchController.h */,
-				EE2E009C207E1F710062AB74 /* qcsClassReviewSearchController.m */,
-				EE2E009D207E1F710062AB74 /* qcsClassReviewSearchController.xib */,
-				EE2E00A0207E26720062AB74 /* qcsClassReviewSearchStudentController.h */,
-				EE2E00A1207E26720062AB74 /* qcsClassReviewSearchStudentController.m */,
-				EE2E00A2207E26720062AB74 /* qcsClassReviewSearchStudentController.xib */,
-				EE2E00A5207F14630062AB74 /* qcsClassReviewInsideStudentController.h */,
-				EE2E00A6207F14630062AB74 /* qcsClassReviewInsideStudentController.m */,
-				EE2E00A7207F14630062AB74 /* qcsClassReviewInsideStudentController.xib */,
-				EE2E00AA207F8E860062AB74 /* qcsClassReviewSearchCell.h */,
-				EE2E00AB207F8E860062AB74 /* qcsClassReviewSearchCell.m */,
-				EE2E00AC207F8E860062AB74 /* qcsClassReviewSearchCell.xib */,
-				EE2E00B22080553B0062AB74 /* qcsClassReviewSearchTreeController.h */,
-				EE2E00B32080553B0062AB74 /* qcsClassReviewSearchTreeController.m */,
-				EE2E00B42080553B0062AB74 /* qcsClassReviewSearchTreeController.xib */,
-			);
-			path = "课后回顾";
-			sourceTree = "<group>";
-		};
-		EE95F31C2079A5C90067F2E2 /* 云备课 */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "云备课";
-			sourceTree = "<group>";
-		};
-		EE95F31D2079A5C90067F2E2 /* 课后作业 */ = {
-			isa = PBXGroup;
-			children = (
-				EE22FCB920B2BF4A005E26A1 /* Model */,
-				EEE0516020A5892500FAB68D /* qcsHomeworkMainController.h */,
-				EEE0516120A5892500FAB68D /* qcsHomeworkMainController.m */,
-				EEE0516220A5892500FAB68D /* qcsHomeworkMainController.xib */,
-				EEE0516520A58A5B00FAB68D /* qcsHomeworkReleaseController.h */,
-				EEE0516620A58A5B00FAB68D /* qcsHomeworkReleaseController.m */,
-				EEE0516720A58A5B00FAB68D /* qcsHomeworkReleaseController.xib */,
-				EEAB0DD320AAC5130034DBE7 /* qcsHomeworkSearchController.h */,
-				EEAB0DD420AAC5130034DBE7 /* qcsHomeworkSearchController.m */,
-				EEAB0DD520AAC5130034DBE7 /* qcsHomeworkSearchController.xib */,
-				EEAB0DDD20AACECA0034DBE7 /* qcsHomeworkObjectController.h */,
-				EEAB0DDE20AACECA0034DBE7 /* qcsHomeworkObjectController.m */,
-				EEAB0DDF20AACECA0034DBE7 /* qcsHomeworkObjectController.xib */,
-				EEAB0DD820AACEB90034DBE7 /* qcsHomeworkChooseTypeController.h */,
-				EEAB0DD920AACEB90034DBE7 /* qcsHomeworkChooseTypeController.m */,
-				EEAB0DDA20AACEB90034DBE7 /* qcsHomeworkChooseTypeController.xib */,
-				EEAB0DE320AC1F2F0034DBE7 /* ZXCollectionCell.h */,
-				EEAB0DE220AC1F2F0034DBE7 /* ZXCollectionCell.m */,
-				EEEBC1B820AD8A24005EDACE /* qcsHomeworkSelectCell.h */,
-				EEEBC1B920AD8A24005EDACE /* qcsHomeworkSelectCell.m */,
-				EEEBC1BA20AD8A24005EDACE /* qcsHomeworkSelectCell.xib */,
-				EE22FCFC20B401A1005E26A1 /* qcsHomeworkMainCell.h */,
-				EE22FCFD20B401A1005E26A1 /* qcsHomeworkMainCell.m */,
-				EE22FCFE20B401A1005E26A1 /* qcsHomeworkMainCell.xib */,
-			);
-			path = "课后作业";
-			sourceTree = "<group>";
-		};
-		EE95F31E2079A5C90067F2E2 /* 学情分析 */ = {
-			isa = PBXGroup;
-			children = (
-				EE0BDBC92091C22400AAD516 /* qcsStudyAnalyticsMainController.h */,
-				EE0BDBCA2091C22400AAD516 /* qcsStudyAnalyticsMainController.m */,
-				EE0BDBCC2091C27700AAD516 /* qcsStudyAnalyticsInsideController.h */,
-				EE0BDBCD2091C27700AAD516 /* qcsStudyAnalyticsInsideController.m */,
-				EE0BDBCE2091C27700AAD516 /* qcsStudyAnalyticsInsideController.xib */,
-				EEB1ECB3209AF53E0005DAEB /* qcsStudyAnalyticStudentController.h */,
-				EEB1ECB4209AF53E0005DAEB /* qcsStudyAnalyticStudentController.m */,
-				EE0BDBD12091D28F00AAD516 /* qcsMenuTableController.h */,
-				EE0BDBD22091D28F00AAD516 /* qcsMenuTableController.m */,
-				EE0BDBD32091D28F00AAD516 /* qcsMenuTableController.xib */,
-				EE6672362093334900890A73 /* qcsMenuTypeOneCell.h */,
-				EE6672372093334900890A73 /* qcsMenuTypeOneCell.m */,
-				EE6672382093334900890A73 /* qcsMenuTypeOneCell.xib */,
-				EE6672402093351900890A73 /* qcsMenuTypeTwoMenuCell.h */,
-				EE6672412093351900890A73 /* qcsMenuTypeTwoMenuCell.m */,
-				EE6672422093351900890A73 /* qcsMenuTypeTwoMenuCell.xib */,
-				EEB1ECA62099A21D0005DAEB /* qcsStudyAnalyticsSearcuClassController.h */,
-				EEB1ECA72099A21D0005DAEB /* qcsStudyAnalyticsSearcuClassController.m */,
-				EEB1ECA82099A21E0005DAEB /* qcsStudyAnalyticsSearcuClassController.xib */,
-				EEB1ECAB2099A2300005DAEB /* qcsStudyAnalyticsSearcuStudentController.h */,
-				EEB1ECAC2099A2300005DAEB /* qcsStudyAnalyticsSearcuStudentController.m */,
-				EEB1ECAD2099A2300005DAEB /* qcsStudyAnalyticsSearcuStudentController.xib */,
-			);
-			path = "学情分析";
+			path = PageControl;
 			sourceTree = "<group>";
 		};
 		EEB841E3201B200600E7EF14 /* PPNumberButton */ = {
@@ -7006,6 +6206,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -7032,29 +6233,22 @@
 				EE4203C11FFE15420009D064 /* AlbumAddBtnHL@2x.png in Resources */,
 				EE42029B1FFE15400009D064 /* AssetApplyDetailController.xib in Resources */,
 				EE4202621FFE15400009D064 /* RecordAttachmentCell.xib in Resources */,
-				EE22FCEC20B2D1B7005E26A1 /* toast_vol_3@2x.png in Resources */,
 				EE99585B20207EA3002D6096 /* CAClassDetailController.xib in Resources */,
 				EE4201DB1FFE15400009D064 /* WHOutResignController.xib in Resources */,
 				EE4203C21FFE15420009D064 /* button_send_comment@2x.png in Resources */,
 				EE4203871FFE15410009D064 /* starFore@2x.png in Resources */,
 				EE4201E91FFE15400009D064 /* WHStatisticsHouseController.xib in Resources */,
 				EE4202F11FFE15410009D064 /* AlwaysContactCell.xib in Resources */,
-				EE2E00A4207E26720062AB74 /* qcsClassReviewSearchStudentController.xib in Resources */,
 				EE4202661FFE15400009D064 /* RNewRecordCell.xib in Resources */,
 				EE4203E41FFE15420009D064 /* TYHChangePwdViewController.xib in Resources */,
 				EE4202681FFE15400009D064 /* TYHKeYanController.xib in Resources */,
-				EE3FFC752079CF83004CD2A9 /* qcsClassReviewInsideClassCell.xib in Resources */,
-				EEB1ECAF2099A2300005DAEB /* qcsStudyAnalyticsSearcuStudentController.xib in Resources */,
 				EE4201B81FFE15400009D064 /* lookHomeworkViewController.xib in Resources */,
 				610B1E081AFDDE04006454EA /* video_chat_tip_sender.aac in Resources */,
 				61E471401B7D963E00F4A1BF /* NTESAudio2TextViewController.xib in Resources */,
-				EE95F3262079A86B0067F2E2 /* qcsClassReviewMainController.xib in Resources */,
 				EE4201D91FFE15400009D064 /* WHOutListSearchController.xib in Resources */,
 				EE4202571FFE15400009D064 /* RepairApplicationPlaceCell.xib in Resources */,
-				EE2E003E207B78AD0062AB74 /* qcsClassDetailInsideJXKJCell.xib in Resources */,
 				EE4201F31FFE15400009D064 /* WHApplicationDetailItemCell.xib in Resources */,
 				EE4201F81FFE15400009D064 /* WHApplicationItemCell.xib in Resources */,
-				EE2E0034207B782A0062AB74 /* qcsClassDetailInsideSXBJCell.xib in Resources */,
 				61E471461B7D963E00F4A1BF /* NTESGalleryViewController.xib in Resources */,
 				EE2D0356200311CE00142A7F /* OptinalTitle.plist in Resources */,
 				61E4711E1B7D963E00F4A1BF /* NTESContactViewController.xib in Resources */,
@@ -7063,7 +6257,6 @@
 				EE42020B1FFE15400009D064 /* WHOutResignCell.xib in Resources */,
 				EE4202701FFE15400009D064 /* TYHAttendanceController.xib in Resources */,
 				EE42028C1FFE15400009D064 /* TYHCheckViewController.xib in Resources */,
-				EE2E0046207BA70E0062AB74 /* qcsClassStasticInsideDTBCell.xib in Resources */,
 				EE4203391FFE15410009D064 /* ProjectMainCell.xib in Resources */,
 				EE4202A91FFE15400009D064 /* AssetListController.xib in Resources */,
 				EE4203911FFE15410009D064 /* TYHContacterListController.xib in Resources */,
@@ -7071,26 +6264,18 @@
 				EE4202641FFE15400009D064 /* RecordMainCell.xib in Resources */,
 				EE4201CB1FFE15400009D064 /* WHChooseApplyUserController.xib in Resources */,
 				8343827D1EFCB9D30052254A /* NTESSystemNotificationViewController.xib in Resources */,
-				EE2E009F207E1F710062AB74 /* qcsClassReviewSearchController.xib in Resources */,
 				EE4202201FFE15400009D064 /* RRepairSubmitListController.xib in Resources */,
-				EE0BDBD52091D28F00AAD516 /* qcsMenuTableController.xib in Resources */,
 				EE4203151FFE15410009D064 /* TitleViewCell.xib in Resources */,
 				EE4201551FFE15400009D064 /* TYHContactDetailCell.xib in Resources */,
 				EE4201C71FFE15400009D064 /* WHApplicationListController.xib in Resources */,
-				EE3FFC852079F1D7004CD2A9 /* qcsClassDetailInsideController.xib in Resources */,
 				EE4203BE1FFE15420009D064 /* 2.png in Resources */,
-				EE22FCE820B2D1B7005E26A1 /* toast_microphone@2x.png in Resources */,
-				EE2E005B207DF3760062AB74 /* qcsClassDetailInsideXZTDetailController.xib in Resources */,
 				61E471441B7D963E00F4A1BF /* NTESFileTransSelectViewController.xib in Resources */,
-				EE3FFC7A2079CF96004CD2A9 /* qcsClassReviewInsideStudentCell.xib in Resources */,
 				EE4201FC1FFE15400009D064 /* WHApplyCheckCell.xib in Resources */,
 				61E471591B7D963E00F4A1BF /* NTESMutiClientsCell.xib in Resources */,
-				EE2E0060207DF6990062AB74 /* qcsClassDetailInsideXZTDetailCell.xib in Resources */,
 				EE42024D1FFE15400009D064 /* MRFeedBackScoreCell.xib in Resources */,
 				EE4201D71FFE15400009D064 /* WHOutListController.xib in Resources */,
 				EE4202BD1FFE15410009D064 /* AssetDiliverCell.xib in Resources */,
 				EE42024F1FFE15400009D064 /* MRSAddDetailCell.xib in Resources */,
-				EE22FCB320B2B322005E26A1 /* HVideoViewController.xib in Resources */,
 				EE4201571FFE15400009D064 /* EBBannerView.xib in Resources */,
 				EE4202E41FFE15410009D064 /* TYHNewDetailViewController.xib in Resources */,
 				610B1E051AFDDE04006454EA /* video_chat_tip_OnCall.aac in Resources */,
@@ -7109,17 +6294,13 @@
 				EE42023B1FFE15400009D064 /* REquipmentTypeCollectionCell.xib in Resources */,
 				EE42037B1FFE15410009D064 /* CarStatusCell.xib in Resources */,
 				611ABF111B42321600B8706C /* Settings.bundle in Resources */,
-				EE2E002C207B6C3C0062AB74 /* qcsClassStasticInsideXTTJCell.xib in Resources */,
 				EE42038B1FFE15410009D064 /* starGray@3x.png in Resources */,
 				EE4203F31FFE15420009D064 /* README.txt in Resources */,
 				EE4201CD1FFE15400009D064 /* WHChooseWareHouseController.xib in Resources */,
-				EE3FFC922079F25F004CD2A9 /* qcsClassInteractionMainController.xib in Resources */,
 				EE4201591FFE15400009D064 /* EBMute.mp3 in Resources */,
 				EE4203EF1FFE15420009D064 /* ShareSDKUI.bundle in Resources */,
 				EE4201E51FFE15400009D064 /* WHStatisticsController.xib in Resources */,
 				EE4203861FFE15410009D064 /* starFore.png in Resources */,
-				EE6672442093351900890A73 /* qcsMenuTypeTwoMenuCell.xib in Resources */,
-				EE22FCB420B2B322005E26A1 /* btn_video_flip_camera@2x.png in Resources */,
 				EE4202DE1FFE15410009D064 /* TYHBasePersonController.xib in Resources */,
 				EE42035F1FFE15410009D064 /* TYHAppMainController.xib in Resources */,
 				EE4201921FFE15400009D064 /* WebViewJavascriptBridge.js.txt in Resources */,
@@ -7130,18 +6311,14 @@
 				EE4203431FFE15410009D064 /* PServiceApplyDetailCell.xib in Resources */,
 				61E471081B7D963E00F4A1BF /* NTESSearchTeamViewController.xib in Resources */,
 				EE4202F51FFE15410009D064 /* ImageCollectionCell.xib in Resources */,
-				EE2E009A207E063C0062AB74 /* qcsClassDetailInsideXZTStudentCell.xib in Resources */,
 				EE4202591FFE15400009D064 /* RepairManagementListCell.xib in Resources */,
 				EE4202901FFE15400009D064 /* TYHFeedBackCotroller.xib in Resources */,
-				EE95F2DB2071DD5C0067F2E2 /* QCSchoolMainItemCell.xib in Resources */,
 				EE4201C51FFE15400009D064 /* WHAddApplicationDiliverController.xib in Resources */,
 				EE4202D11FFE15410009D064 /* TakeCourseCell.xib in Resources */,
 				BDB02D271E09172F00262A50 /* NTESNetDetectViewController.xib in Resources */,
-				EE2E0051207DEE6B0062AB74 /* qcsClassDetailInsideSXBJDetailController.xib in Resources */,
 				EE2D0355200311CE00142A7F /* OptinalButton.plist in Resources */,
 				EE4203C31FFE15420009D064 /* fw_r2_c2@2x.png in Resources */,
 				EE4203221FFE15410009D064 /* PProjectApprovalCheckController.xib in Resources */,
-				EEB1ECAA2099A21E0005DAEB /* qcsStudyAnalyticsSearcuClassController.xib in Resources */,
 				EE4202881FFE15400009D064 /* TYHCarManagerController.xib in Resources */,
 				EE42017E1FFE15400009D064 /* 归档.zip in Resources */,
 				EE4203C41FFE15420009D064 /* personal_showBac@2x.png in Resources */,
@@ -7150,17 +6327,12 @@
 				EE2D0354200311CE00142A7F /* appSource.plist in Resources */,
 				EE42038A1FFE15410009D064 /* starGray@2x.png in Resources */,
 				EE4202471FFE15400009D064 /* MRADetailBottomCell.xib in Resources */,
-				EE22FCEB20B2D1B7005E26A1 /* toast_vol_2@2x.png in Resources */,
 				EE4201631FFE15400009D064 /* ico_make.png in Resources */,
-				EE66723A2093334900890A73 /* qcsMenuTypeOneCell.xib in Resources */,
 				8343827B1EFCB9D30052254A /* NTESSystemNotificationCell.xib in Resources */,
 				610B1E041AFDDE04006454EA /* video_chat_tip_HangUp.aac in Resources */,
 				EE4827DE201882EB00605E1B /* CAEvaluateController.xib in Resources */,
 				EE4201BF1FFE15400009D064 /* homeworkListCell.xib in Resources */,
-				EE0BDBD02091C27700AAD516 /* qcsStudyAnalyticsInsideController.xib in Resources */,
-				EE3FFC8D2079F237004CD2A9 /* qcsClassStasticInsideController.xib in Resources */,
 				610B1E021AFDDE04006454EA /* video_connect_chat_tip_sender.aac in Resources */,
-				EE22FCEF20B2D1B7005E26A1 /* toast_vol_6@2x.png in Resources */,
 				61CC36EA1F06BA890069BC5D /* NTESRobotCardViewController.xib in Resources */,
 				EE4201C91FFE15400009D064 /* WHCheckController.xib in Resources */,
 				EE4202A01FFE15400009D064 /* AssetDetailController.xib in Resources */,
@@ -7181,10 +6353,8 @@
 				61A18A4B1DC73B96001FD538 /* NIMKitEmoticon.bundle in Resources */,
 				EE4203611FFE15410009D064 /* TYHChooseTeacherController.xib in Resources */,
 				EE4201B41FFE15400009D064 /* ZLPhotoLib.bundle in Resources */,
-				EEAB0DDC20AACEB90034DBE7 /* qcsHomeworkChooseTypeController.xib in Resources */,
 				EE42037D1FFE15410009D064 /* CarStatustaskCell.xib in Resources */,
 				834382791EFCB9D30052254A /* NTESCustomSysNotificationViewController.xib in Resources */,
-				EE2E00B62080553B0062AB74 /* qcsClassReviewSearchTreeController.xib in Resources */,
 				EE4202F91FFE15410009D064 /* SearchCell.xib in Resources */,
 				EE4202511FFE15400009D064 /* MRSFeedBackCell.xib in Resources */,
 				EE4203DC1FFE15420009D064 /* NTESLoginViewController.xib in Resources */,
@@ -7196,19 +6366,14 @@
 				EE42018B1FFE15400009D064 /* sr_refresh@2X.png in Resources */,
 				EE4202F71FFE15410009D064 /* NewNoticeCell.xib in Resources */,
 				EE4203351FFE15410009D064 /* PCheckMainCell.xib in Resources */,
-				EE2E0039207B78950062AB74 /* qcsClassDetailInsideXZTCell.xib in Resources */,
-				EE22FD0020B401A1005E26A1 /* qcsHomeworkMainCell.xib in Resources */,
 				EE4202071FFE15400009D064 /* WHMineListCell.xib in Resources */,
-				EEAB0DE120AACECA0034DBE7 /* qcsHomeworkObjectController.xib in Resources */,
 				EE4203C51FFE15420009D064 /* zan@2x.png in Resources */,
 				EE42028A1FFE15400009D064 /* TYHCarStatusController.xib in Resources */,
 				EE4201881FFE15400009D064 /* red_line_and_shadow@2x.png in Resources */,
 				EE4201531FFE15400009D064 /* TYHContactCell.xib in Resources */,
 				EE4203E01FFE15420009D064 /* TYHFindPasswordController.xib in Resources */,
 				EE4202AD1FFE15400009D064 /* AssetMyAssetsController.xib in Resources */,
-				EEE0516920A58A5B00FAB68D /* qcsHomeworkReleaseController.xib in Resources */,
 				EE4201971FFE15400009D064 /* README.md in Resources */,
-				EE3FFC562079AE48004CD2A9 /* qcsClassReviewInsideController.xib in Resources */,
 				EE4202771FFE15400009D064 /* AttendanceRemarkCell.xib in Resources */,
 				EE4202841FFE15400009D064 /* TYHCarContentController.xib in Resources */,
 				EE4201E31FFE15400009D064 /* WHMineController.xib in Resources */,
@@ -7218,25 +6383,20 @@
 				EE4203471FFE15410009D064 /* PServiceRecordCell.xib in Resources */,
 				EE4202531FFE15400009D064 /* RepairApplicationAddCell.xib in Resources */,
 				EE4201D31FFE15400009D064 /* WHGoodsKindListController.xib in Resources */,
-				EEAB0DD720AAC5130034DBE7 /* qcsHomeworkSearchController.xib in Resources */,
-				EE2E00A9207F14630062AB74 /* qcsClassReviewInsideStudentController.xib in Resources */,
 				EE4202F31FFE15410009D064 /* CustomTableViewCell.xib in Resources */,
 				EE4202991FFE15400009D064 /* AssetApplyController.xib in Resources */,
 				E4ED12DD1B6B07EA00316496 /* message.wav in Resources */,
 				EE4201E71FFE15400009D064 /* WHStatisticsCountController.xib in Resources */,
 				EE4202E91FFE15410009D064 /* TYHReadInfo2ViewController.xib in Resources */,
-				EE22FCED20B2D1B7005E26A1 /* toast_vol_4@2x.png in Resources */,
 				EE4202E21FFE15410009D064 /* TYHNewContacterController.xib in Resources */,
 				EE42030E1FFE15410009D064 /* AttachmentCell.xib in Resources */,
 				EE4201D11FFE15400009D064 /* WHGoodsDetailListController.xib in Resources */,
-				EE95F2D92071DD5C0067F2E2 /* QCSchoolCommonItemCell.xib in Resources */,
 				EE4201741FFE15400009D064 /* MJPhotoBrowser.bundle in Resources */,
 				61E471601B7D963E00F4A1BF /* NTESNoDisturbSettingViewController.xib in Resources */,
 				EE4202171FFE15400009D064 /* MRFeedBackListCell.xib in Resources */,
 				61ED4F461AE4FA020073DBD9 /* Files in Resources */,
 				EE42017A1FFE15400009D064 /* README.md in Resources */,
 				EEB841DD201B153D00E7EF14 /* CAEvaluateItemCell.xib in Resources */,
-				EEE0516420A5892500FAB68D /* qcsHomeworkMainController.xib in Resources */,
 				EE42034F1FFE15410009D064 /* PVisitRecordDetailCell.xib in Resources */,
 				EE4202861FFE15400009D064 /* TYHCarDetailController.xib in Resources */,
 				61E471031B7D963E00F4A1BF /* NTESJionTeamViewController.xib in Resources */,
@@ -7249,8 +6409,6 @@
 				EE4202D41FFE15410009D064 /* TakeCourseMineCell.xib in Resources */,
 				EE4203C01FFE15420009D064 /* album_add_photo@2x.png in Resources */,
 				EE4202C71FFE15410009D064 /* AssetMineReturnCell.xib in Resources */,
-				EE22FCE920B2D1B7005E26A1 /* toast_timeshort@2x.png in Resources */,
-				EE22FCF020B2D1B7005E26A1 /* toast_vol_7@2x.png in Resources */,
 				61A18A4D1DC74448001FD538 /* NIMKitResource.bundle in Resources */,
 				EE42023F1FFE15400009D064 /* REquipmentTypeL2Cell.xib in Resources */,
 				EE4202A31FFE15400009D064 /* AssetDiliverDetailController.xib in Resources */,
@@ -7266,8 +6424,6 @@
 				EE4201961FFE15400009D064 /* LICENSE in Resources */,
 				EE42018A1FFE15400009D064 /* sr_refresh.png in Resources */,
 				EE4201681FFE15400009D064 /* Info.plist in Resources */,
-				EE22FCEE20B2D1B7005E26A1 /* toast_vol_5@2x.png in Resources */,
-				EE2E00AE207F8E870062AB74 /* qcsClassReviewSearchCell.xib in Resources */,
 				EE4202271FFE15400009D064 /* RMChargeDealController.xib in Resources */,
 				EE4203491FFE15410009D064 /* PUserInfoType1Cell.xib in Resources */,
 				EE42037F1FFE15410009D064 /* NewAppCell.xib in Resources */,
@@ -7282,14 +6438,11 @@
 				61E4712D1B7D963E00F4A1BF /* NTESRegisterViewController.xib in Resources */,
 				EE4202551FFE15400009D064 /* RepairApplicationErrorCell.xib in Resources */,
 				EE4203A41FFE15410009D064 /* TYHRecordListCell.xib in Resources */,
-				EE22FCEA20B2D1B7005E26A1 /* toast_vol_1@2x.png in Resources */,
 				EE4202231FFE15400009D064 /* TYHNewRepairController.xib in Resources */,
 				EE4203A61FFE15410009D064 /* TYHSettingsCell.xib in Resources */,
 				EE4201E11FFE15400009D064 /* WHApplicationDetailController.xib in Resources */,
 				EE42032F1FFE15410009D064 /* PAddServiceApplyCell.xib in Resources */,
 				EE4202E01FFE15410009D064 /* TYHChoosedPersonController.xib in Resources */,
-				EEEBC1BC20AD8A24005EDACE /* qcsHomeworkSelectCell.xib in Resources */,
-				EE22FCE720B2D1B7005E26A1 /* toast_cancelsend@2x.png in Resources */,
 				610B1E071AFDDE04006454EA /* video_chat_tip_receiver.aac in Resources */,
 				EE4202741FFE15400009D064 /* AttendanceCell.xib in Resources */,
 				EE42026A1FFE15400009D064 /* AttendaceBuQianController.xib in Resources */,
@@ -7394,9 +6547,7 @@
 				EE4203A31FFE15410009D064 /* TYHRecordListCell.m in Sources */,
 				EE4203DD1FFE15420009D064 /* TYHFindPasswordCell.m in Sources */,
 				EE4201811FFE15400009D064 /* UIImage+SGHelper.m in Sources */,
-				EE2E0024207B651A0062AB74 /* LYEmptyBaseView.m in Sources */,
 				61E4715C1B7D963E00F4A1BF /* NTESListHeader.m in Sources */,
-				EEAB0DDB20AACEB90034DBE7 /* qcsHomeworkChooseTypeController.m in Sources */,
 				EE4202A41FFE15400009D064 /* AssetDiliverWaitController.m in Sources */,
 				EE42023C1FFE15400009D064 /* REquipmentTypeL1Cell.m in Sources */,
 				834FE0141E272E56008F218F /* NTESSessionPeekViewController.m in Sources */,
@@ -7404,11 +6555,9 @@
 				834DC5CD1F1C9F2A00C9E0B3 /* NTESSessionMsgConverter.m in Sources */,
 				61518A4A1CA233390061C4A9 /* NTESNavigationAnimator.m in Sources */,
 				EE42025A1FFE15400009D064 /* RMPaiCell.m in Sources */,
-				EE3FFC802079F167004CD2A9 /* qcsClassDetailMainController.m in Sources */,
 				6195CD201A8C4D3C00F3E239 /* NSString+NTES.m in Sources */,
 				EE4201B51FFE15400009D064 /* CheackHomeworkViewController.m in Sources */,
 				EE4202801FFE15400009D064 /* SolarDate.cpp in Sources */,
-				EE2E002B207B6C3C0062AB74 /* qcsClassStasticInsideXTTJCell.m in Sources */,
 				EE4201A91FFE15400009D064 /* ZLPhotoPickerDatas.m in Sources */,
 				EE4203C61FFE15420009D064 /* DFGridImageView.m in Sources */,
 				EE4203231FFE15410009D064 /* ProjectDetailController.m in Sources */,
@@ -7424,21 +6573,16 @@
 				EE4202311FFE15400009D064 /* UIViewController+ACMediaExt.m in Sources */,
 				EE42023E1FFE15400009D064 /* REquipmentTypeL2Cell.m in Sources */,
 				EE4201981FFE15400009D064 /* YLGIFImage.m in Sources */,
-				EE3FFC6C2079B01B004CD2A9 /* TADotView.m in Sources */,
 				61E471111B7D963E00F4A1BF /* NTESCustomSysNotificationSender.m in Sources */,
-				EE2E0050207DEE6B0062AB74 /* qcsClassDetailInsideSXBJDetailController.m in Sources */,
-				EE95F3252079A86B0067F2E2 /* qcsClassReviewMainController.m in Sources */,
 				EE42022A1FFE15400009D064 /* ACMediaImageCell.m in Sources */,
 				EE4202DC1FFE15410009D064 /* TYHNavigationController.m in Sources */,
 				EE4203E11FFE15420009D064 /* TYHScanViewController.m in Sources */,
 				EE4202341FFE15400009D064 /* RAPlaceModel.m in Sources */,
 				EE4202DD1FFE15410009D064 /* TYHBasePersonController.m in Sources */,
-				EE2E005A207DF3760062AB74 /* qcsClassDetailInsideXZTDetailController.m in Sources */,
 				EE42019D1FFE15400009D064 /* ZLCameraImageView.m in Sources */,
 				EE4202281FFE15400009D064 /* RMPaiController.m in Sources */,
 				61E471451B7D963E00F4A1BF /* NTESGalleryViewController.m in Sources */,
 				61E4715D1B7D963E00F4A1BF /* NTESClientsTableViewController.m in Sources */,
-				EE22FCBC20B2BF60005E26A1 /* qcsHomeworkModel.m in Sources */,
 				EE42020F1FFE15400009D064 /* TranscriptCell.m in Sources */,
 				EE4201C01FFE15400009D064 /* HWDownloadCell.m in Sources */,
 				03A4C9FF1AC2B79700E45E03 /* UIAlertView+NTESBlock.m in Sources */,
@@ -7462,8 +6606,6 @@
 				EE42014F1FFE15400009D064 /* UIView+Extention.m in Sources */,
 				EE4203691FFE15410009D064 /* AttachmentsModel.m in Sources */,
 				EE4203591FFE15410009D064 /* TYHLabel.m in Sources */,
-				EEB1ECB22099A7830005DAEB /* QCSchoolTagHandle.m in Sources */,
-				EE3FFC842079F1D7004CD2A9 /* qcsClassDetailInsideController.m in Sources */,
 				EE4202F61FFE15410009D064 /* NewNoticeCell.m in Sources */,
 				EE42031A1FFE15410009D064 /* PCheckDetailController.m in Sources */,
 				EE4202F81FFE15410009D064 /* SearchCell.m in Sources */,
@@ -7473,7 +6615,6 @@
 				61E471941B7D96AA00F4A1BF /* NTESService.m in Sources */,
 				EE4201A31FFE15400009D064 /* ZLPhotoPickerBrowserViewController.m in Sources */,
 				61E470F61B7D963E00F4A1BF /* NTESColorButtonCell.m in Sources */,
-				EE3FFC6D2079B01B004CD2A9 /* TAPageControl.m in Sources */,
 				EE4203D81FFE15420009D064 /* YMTapGestureRecongnizer.m in Sources */,
 				EE4202CA1FFE15410009D064 /* TakeCourseDetailViewController.m in Sources */,
 				61518A561CA233BB0061C4A9 /* NTESDemoService.m in Sources */,
@@ -7484,17 +6625,15 @@
 				EE42029C1FFE15400009D064 /* AssetCheckController.m in Sources */,
 				61EAD9151B82FEE9005DC715 /* NTESPersonalCardViewController.m in Sources */,
 				61A8EF341BB67F0900033FB8 /* UIResponder+NTESFirstResponder.m in Sources */,
-				EE2E005F207DF6990062AB74 /* qcsClassDetailInsideXZTDetailCell.m in Sources */,
 				EE4203851FFE15410009D064 /* UIButton+Extention.m in Sources */,
-				EE3FFC6A2079B01B004CD2A9 /* TAAbstractDotView.m in Sources */,
 				EE42032E1FFE15410009D064 /* PAddServiceApplyCell.m in Sources */,
 				EE4203AF1FFE15410009D064 /* NSMutableAttributedString+MLLabel.m in Sources */,
 				EE4203441FFE15410009D064 /* PServiceApplyMainCell.m in Sources */,
+				EEA8873722A0DC03004BA812 /* SDCycleScrollView.m in Sources */,
 				EE4201771FFE15400009D064 /* MJPhotoProgressView.m in Sources */,
 				EE4201C31FFE15400009D064 /* TYHWarehouseManagementController.m in Sources */,
 				EE4202A11FFE15400009D064 /* AssetDiliverController.m in Sources */,
 				61E4712E1B7D963E00F4A1BF /* NTESSessionConfig.m in Sources */,
-				EEAB0DE420AC1F2F0034DBE7 /* ZXCollectionCell.m in Sources */,
 				EE4203971FFE15410009D064 /* TYHChossClassViewController.m in Sources */,
 				EE42033C1FFE15410009D064 /* PServerRecordCell.m in Sources */,
 				6173AEC01BAAB91C00854D49 /* NTESNickNameSettingViewController.m in Sources */,
@@ -7507,12 +6646,8 @@
 				61518A551CA233BB0061C4A9 /* NTESDemoRegisterTask.m in Sources */,
 				EE4201F01FFE15400009D064 /* WHOutModel.m in Sources */,
 				EE4202D31FFE15410009D064 /* TakeCourseMineCell.m in Sources */,
-				EE95F2D72071DD5C0067F2E2 /* QCSchoolCommonHeaderView.m in Sources */,
-				EE2E0025207B651A0062AB74 /* LYEmptyView.m in Sources */,
-				EEB1ECA92099A21E0005DAEB /* qcsStudyAnalyticsSearcuClassController.m in Sources */,
 				EE4201A21FFE15400009D064 /* ZLPhotoPickerBrowserViewController+SignlePhotoBrowser.m in Sources */,
 				EE42036B1FFE15410009D064 /* CarDetailModel.m in Sources */,
-				EE3FFC952079F8D3004CD2A9 /* QCSMainModel.m in Sources */,
 				EE4202931FFE15400009D064 /* TYHPaiViewController.m in Sources */,
 				EE4201EB1FFE15400009D064 /* WHApplicationModel.m in Sources */,
 				EE4202DF1FFE15410009D064 /* TYHChoosedPersonController.m in Sources */,
@@ -7523,11 +6658,8 @@
 				EE4203171FFE15410009D064 /* PAddServerApplicationController.m in Sources */,
 				61E471141B7D963E00F4A1BF /* NTESGroupedDataCollection.m in Sources */,
 				EE4201FB1FFE15400009D064 /* WHApplyCheckCell.m in Sources */,
-				EE22FCFF20B401A1005E26A1 /* qcsHomeworkMainCell.m in Sources */,
 				EE4203101FFE15410009D064 /* NoticeCell.m in Sources */,
-				EE2E0045207BA70E0062AB74 /* qcsClassStasticInsideDTBCell.m in Sources */,
 				EE4203501FFE15410009D064 /* LDCalendarView.m in Sources */,
-				EE0BDBE22091D2CB00AAD516 /* CWInteractiveTransition.m in Sources */,
 				EE42036D1FFE15410009D064 /* DriverDataModel.m in Sources */,
 				610B5FBF1BADCCCD001F7EFB /* NTESBirthPickerView.m in Sources */,
 				EE4203461FFE15410009D064 /* PServiceRecordCell.m in Sources */,
@@ -7540,15 +6672,14 @@
 				EE4202E81FFE15410009D064 /* TYHReadInfo2ViewController.m in Sources */,
 				EEB841E9201B310900E7EF14 /* CAEvaluateItemHeaderView.m in Sources */,
 				EE4201EC1FFE15400009D064 /* WHGoodsModel.m in Sources */,
-				EE0BDBD42091D28F00AAD516 /* qcsMenuTableController.m in Sources */,
 				EE4203481FFE15410009D064 /* PUserInfoType1Cell.m in Sources */,
-				EE3FFC882079F21D004CD2A9 /* qcsClassStasticMainController.m in Sources */,
 				EE4201791FFE15400009D064 /* MJPhotoView.m in Sources */,
 				EE4203B31FFE15410009D064 /* NSAttributedString+MLExpression.m in Sources */,
 				EE4202191FFE15400009D064 /* MyReairApplicationMainController.m in Sources */,
 				EE42036F1FFE15410009D064 /* NumberModel.m in Sources */,
 				EE4203AA1FFE15410009D064 /* NSArray+NSArray_ILExtension.m in Sources */,
 				EE4202C01FFE15410009D064 /* AssetManagerNoticeCell.m in Sources */,
+				EEA8873D22A0DC03004BA812 /* TAAbstractDotView.m in Sources */,
 				EE42022D1FFE15400009D064 /* ACSelectMediaView.m in Sources */,
 				61DA56FF1B53E33F00828B8A /* UIImage+NTES.m in Sources */,
 				EE4201EE1FFE15400009D064 /* WHMyApplicationModel.m in Sources */,
@@ -7570,9 +6701,7 @@
 				61E4718E1B7D96AA00F4A1BF /* NTESFileLocationHelper.m in Sources */,
 				EE4202731FFE15400009D064 /* AttendanceCell.m in Sources */,
 				61E471931B7D96AA00F4A1BF /* NTESNotificationCenter.m in Sources */,
-				EE0BDBE52091D2CB00AAD516 /* UIViewController+CWLateralSlide.m in Sources */,
 				834DC5D31F1CD66B00C9E0B3 /* NTESRedPacketTipAttachment.m in Sources */,
-				EE2E0038207B78950062AB74 /* qcsClassDetailInsideXZTCell.m in Sources */,
 				E48988E81DE42353001CF6C5 /* NTESCellLayoutConfig.m in Sources */,
 				EE4202851FFE15400009D064 /* TYHCarDetailController.m in Sources */,
 				6173AED21BAAC8CF00854D49 /* NTESMobileSettingViewController.m in Sources */,
@@ -7580,13 +6709,10 @@
 				EE42029D1FFE15400009D064 /* AssetCheckDiliverController.m in Sources */,
 				EE4203AC1FFE15410009D064 /* UIBarButtonItem+Lite.m in Sources */,
 				EE4203A21FFE15410009D064 /* SchoolMatesHeaderView.m in Sources */,
-				EE22FCB020B2B322005E26A1 /* HAVPlayer.m in Sources */,
 				EE4201601FFE15400009D064 /* UITableView+FDTemplateLayoutCellDebug.m in Sources */,
 				EE4202111FFE15400009D064 /* TYHRepairMainController.m in Sources */,
 				EE4203211FFE15410009D064 /* PProjectApprovalCheckController.m in Sources */,
 				EE4203CE1FFE15420009D064 /* DFImagesSendViewController.m in Sources */,
-				EE3FFC592079AF10004CD2A9 /* QCSHomeLabel.m in Sources */,
-				EE95F2E3207224010067F2E2 /* QCSchoolMainController.m in Sources */,
 				6118F5A61C5A0FC1009AF01E /* UINavigationBar+Swizzling.m in Sources */,
 				EE42036A1FFE15410009D064 /* CarDataModel.m in Sources */,
 				EE4201F71FFE15400009D064 /* WHApplicationItemCell.m in Sources */,
@@ -7639,13 +6765,10 @@
 				EE4201AF1FFE15400009D064 /* ZLPhotoPickerCollectionView.m in Sources */,
 				EE4203801FFE15410009D064 /* StatusDetailCell.m in Sources */,
 				EE42039D1FFE15410009D064 /* TYHZhuYeViewController.m in Sources */,
-				EE0BDBCB2091C22400AAD516 /* qcsStudyAnalyticsMainController.m in Sources */,
 				EE42031F1FFE15410009D064 /* PInDetailController.m in Sources */,
-				EE22FCE620B2D1B7005E26A1 /* LGSoundRecorder.m in Sources */,
 				EE4202501FFE15400009D064 /* MRSFeedBackCell.m in Sources */,
 				EE42024A1FFE15400009D064 /* MRADetailUpCell.m in Sources */,
 				EE4203251FFE15410009D064 /* PServerApplicationDetailController.m in Sources */,
-				EE6672392093334900890A73 /* qcsMenuTypeOneCell.m in Sources */,
 				EE4203711FFE15410009D064 /* OaCarDataModel.m in Sources */,
 				EE4203571FFE15410009D064 /* TYHButton.m in Sources */,
 				61E471491B7D963E00F4A1BF /* NTESSessionLocalHistoryViewController.m in Sources */,
@@ -7656,7 +6779,6 @@
 				61E4713F1B7D963E00F4A1BF /* NTESAudio2TextViewController.m in Sources */,
 				EE4201AC1FFE15400009D064 /* ZLPhotoPickerAssetsViewController.m in Sources */,
 				EE4203301FFE15410009D064 /* PAddVisitRecordCell.m in Sources */,
-				EE6672432093351900890A73 /* qcsMenuTypeTwoMenuCell.m in Sources */,
 				EE42027F1FFE15400009D064 /* ChineseDate.cpp in Sources */,
 				61EAD9121B82F275005DC715 /* NTESContactAddFriendViewController.m in Sources */,
 				EE4202E71FFE15410009D064 /* TYHNewSendViewController.m in Sources */,
@@ -7665,31 +6787,26 @@
 				61E4713C1B7D963E00F4A1BF /* NTESSessionJankenponContentView.m in Sources */,
 				EE42035A1FFE15410009D064 /* TYHSchoolCell.m in Sources */,
 				61E471971B7D96AA00F4A1BF /* NTESPinyinConverter.m in Sources */,
-				EEE0516320A5892500FAB68D /* qcsHomeworkMainController.m in Sources */,
 				EE4203181FFE15410009D064 /* PAddServerRecordController.m in Sources */,
 				EE4203551FFE15410009D064 /* PaiCheCell.m in Sources */,
 				EE42031B1FFE15410009D064 /* PCheckMainViewController.m in Sources */,
 				EE4203AE1FFE15410009D064 /* NSAttributedString+MLLabel.m in Sources */,
 				EE4201B61FFE15400009D064 /* HomeWorkViewController.m in Sources */,
 				E4562D8B1CE0855A00D66909 /* NTESSDKConfigDelegate.m in Sources */,
-				EE95F2DA2071DD5C0067F2E2 /* QCSchoolMainItemCell.m in Sources */,
 				EE4202181FFE15400009D064 /* MyReairApplicationDetailController.m in Sources */,
 				EE4202161FFE15400009D064 /* MRFeedBackListCell.m in Sources */,
 				EE4203AB1FFE15410009D064 /* NSString+NSString_ILExtension.m in Sources */,
 				834DC5CA1F1C9F2A00C9E0B3 /* NTESWhiteboardAttachment.m in Sources */,
-				EE3FFC702079B01B004CD2A9 /* UIView+SDExtension.m in Sources */,
+				EEA8873C22A0DC03004BA812 /* TAAnimatedDotView.m in Sources */,
 				EE4203841FFE15410009D064 /* TYHHomeLabel.m in Sources */,
 				EE4201871FFE15400009D064 /* SGQRCodeTool.m in Sources */,
-				EE2E0027207B651A0062AB74 /* UIView+LYExtension.m in Sources */,
 				EE42021E1FFE15400009D064 /* REquipmentL2Controller.m in Sources */,
-				EE3FFC8C2079F237004CD2A9 /* qcsClassStasticInsideController.m in Sources */,
 				EE42033E1FFE15410009D064 /* PServerRecordDetailCell.m in Sources */,
 				EE42027E1FFE15400009D064 /* ChineseCalendarDB.cpp in Sources */,
 				EE42031E1FFE15410009D064 /* PCheckSearchListController.m in Sources */,
 				EE4202B91FFE15410009D064 /* TYHAssetModel.m in Sources */,
 				EE42020E1FFE15400009D064 /* TranscriptModel.m in Sources */,
 				EE4201E61FFE15400009D064 /* WHStatisticsCountController.m in Sources */,
-				EE3FFC552079AE48004CD2A9 /* qcsClassReviewInsideController.m in Sources */,
 				EE4201D21FFE15400009D064 /* WHGoodsKindListController.m in Sources */,
 				6117562E1BEB6978006A1589 /* NTESAliasSettingViewController.m in Sources */,
 				EE4202371FFE15400009D064 /* TYHRepairNetRequestHelper.m in Sources */,
@@ -7699,14 +6816,12 @@
 				EE42021A1FFE15400009D064 /* MyRepairServiceDetailController.m in Sources */,
 				EE4202001FFE15400009D064 /* WHStatisticsHeaderView.m in Sources */,
 				61E4712C1B7D963E00F4A1BF /* NTESRegisterViewController.m in Sources */,
-				EEEBC1BB20AD8A24005EDACE /* qcsHomeworkSelectCell.m in Sources */,
 				EE42019B1FFE15400009D064 /* UIView+ZLExtension.m in Sources */,
 				619087091BABE5D400F3A0C7 /* NTESDevice.m in Sources */,
 				EE4203361FFE15410009D064 /* ProjectDetailCell.m in Sources */,
 				EE42015F1FFE15400009D064 /* UITableView+FDTemplateLayoutCell.m in Sources */,
 				EE4203721FFE15410009D064 /* PaiCarModel.m in Sources */,
 				EE4203951FFE15410009D064 /* SchoolMatesViewController.m in Sources */,
-				EE2E0041207BA5660062AB74 /* qcsClassStasticInsideDTBHeader.m in Sources */,
 				61B5D7EB1C21331600B52DBF /* NTESPageView.m in Sources */,
 				EE4202C61FFE15410009D064 /* AssetMineReturnCell.m in Sources */,
 				EE4202631FFE15400009D064 /* RecordMainCell.m in Sources */,
@@ -7721,20 +6836,18 @@
 				EE4202441FFE15400009D064 /* TYHRepairMainHeaderView.m in Sources */,
 				EE4202BE1FFE15410009D064 /* AssetDiliverFooterView.m in Sources */,
 				EEB841F6201B325E00E7EF14 /* LLSwitch.m in Sources */,
-				EE0BDBE42091D2CB00AAD516 /* CWLateralSlideConfiguration.m in Sources */,
-				EE3FFC912079F25F004CD2A9 /* qcsClassInteractionMainController.m in Sources */,
 				612CACEE1BB1484C00C348B5 /* NTESContactDataMember.m in Sources */,
 				EE4202481FFE15400009D064 /* MRADetailSeviceCell.m in Sources */,
 				EE4202221FFE15400009D064 /* TYHNewRepairController.m in Sources */,
 				EE4203831FFE15410009D064 /* TYHCarButton.m in Sources */,
 				61E471391B7D963E00F4A1BF /* NTESSearchMessageContentCell.m in Sources */,
+				EEA8873822A0DC03004BA812 /* UIView+SDExtension.m in Sources */,
 				EE4202A81FFE15400009D064 /* AssetListController.m in Sources */,
 				EE4203D91FFE15420009D064 /* TYHLoginAjaxHandler.m in Sources */,
 				EE42038F1FFE15410009D064 /* TYHAddFriendViewController.m in Sources */,
 				6173AEC91BAAC6CB00854D49 /* NTESGenderSettingViewController.m in Sources */,
 				EE4203B91FFE15410009D064 /* UILabel+Corner.m in Sources */,
 				EE4201711FFE15400009D064 /* View+MASAdditions.m in Sources */,
-				EE6672472094465B00890A73 /* QCSStudyAnalyticsModel.m in Sources */,
 				EE4201521FFE15400009D064 /* TYHContactCell.m in Sources */,
 				EE3A679D2011E02B001F1A8E /* KPDropMenu.m in Sources */,
 				EE4202951FFE15400009D064 /* TYHReverseCarController.m in Sources */,
@@ -7761,12 +6874,11 @@
 				834DC5C61F1C9F2A00C9E0B3 /* NTESChartletAttachment.m in Sources */,
 				EE4202B21FFE15400009D064 /* AssetSearchConditionController.m in Sources */,
 				EE42030D1FFE15410009D064 /* AttachmentCell.m in Sources */,
+				EEA8873A22A0DC03004BA812 /* TADotView.m in Sources */,
 				EE4202AA1FFE15400009D064 /* AssetMineController.m in Sources */,
 				EE4202B01FFE15400009D064 /* AssetReturnDetailController.m in Sources */,
 				61E471621B7D963E00F4A1BF /* NTESAboutViewController.m in Sources */,
 				EE42025C1FFE15400009D064 /* RRecordDetailController.m in Sources */,
-				EE3FFC6B2079B01B004CD2A9 /* TAAnimatedDotView.m in Sources */,
-				EEB1ECAE2099A2300005DAEB /* qcsStudyAnalyticsSearcuStudentController.m in Sources */,
 				EE42015E1FFE15400009D064 /* UITableView+FDKeyedHeightCache.m in Sources */,
 				EE4202121FFE15400009D064 /* MRDetailController.m in Sources */,
 				61E471411B7D963E00F4A1BF /* NTESFilePreViewController.m in Sources */,
@@ -7789,8 +6901,6 @@
 				EE4203BC1FFE15420009D064 /* YMTextData.m in Sources */,
 				611FE9EE1BB02320005E8E45 /* (null) in Sources */,
 				EE42014A1FFE153F0009D064 /* NSObject+SXRuntime.m in Sources */,
-				EE2E002F207B6EBB0062AB74 /* qcsClassStasticInsideXTTJHeader.m in Sources */,
-				EE2E0033207B782A0062AB74 /* qcsClassDetailInsideSXBJCell.m in Sources */,
 				EE42014C1FFE153F0009D064 /* UINavigation+SXFixSpace.m in Sources */,
 				EE4201581FFE15400009D064 /* EBForeNotification.m in Sources */,
 				EE4201901FFE15400009D064 /* TPKeyboardAvoidingTableView.m in Sources */,
@@ -7798,7 +6908,6 @@
 				EE4203641FFE15410009D064 /* TYHNewAppController.m in Sources */,
 				EE4201AD1FFE15400009D064 /* ZLPhotoPickerGroupViewController.m in Sources */,
 				EE4203191FFE15410009D064 /* PAddVisitRecordController.m in Sources */,
-				EE3FFC6E2079B01B004CD2A9 /* SDCollectionViewCell.m in Sources */,
 				EE4203A11FFE15410009D064 /* SchoolMatesModel.m in Sources */,
 				EE4201621FFE15400009D064 /* HPTextViewInternal.m in Sources */,
 				EE4203DF1FFE15420009D064 /* TYHFindPasswordController.m in Sources */,
@@ -7816,7 +6925,6 @@
 				EE4201AE1FFE15400009D064 /* ZLPhotoPickerViewController.m in Sources */,
 				EE42017D1FFE15400009D064 /* UIView+SDAutoLayout.m in Sources */,
 				61E4711A1B7D963E00F4A1BF /* NTESContactUtilItem.m in Sources */,
-				EE22FCB220B2B322005E26A1 /* HVideoViewController.m in Sources */,
 				EE4201BD1FFE15400009D064 /* HWNetWorkHandler.m in Sources */,
 				E48988EE1DE4263D001CF6C5 /* NTESChatroomTextContentConfig.m in Sources */,
 				EE42016A1FFE15400009D064 /* MASConstraint.m in Sources */,
@@ -7826,15 +6934,12 @@
 				EE4202871FFE15400009D064 /* TYHCarManagerController.m in Sources */,
 				EE4203751FFE15410009D064 /* StarDataModel.m in Sources */,
 				834382771EFCB9D30052254A /* NTESCustomNotificationObject.m in Sources */,
-				EE2E0026207B651A0062AB74 /* UIScrollView+Empty.m in Sources */,
 				EE42017C1FFE15400009D064 /* UITableView+SDAutoTableViewCellHeight.m in Sources */,
 				EE4201DD1FFE15400009D064 /* WHWaitCheckInsideController.m in Sources */,
 				61A1422F1AD7B02E00DCAD88 /* NSDictionary+NTESJson.m in Sources */,
 				EE4201941FFE15400009D064 /* WebViewJavascriptBridgeBase.m in Sources */,
 				EE4202211FFE15400009D064 /* RRequipmentScanController.m in Sources */,
-				EE22FCE420B2D1B7005E26A1 /* LGMessageModel.m in Sources */,
 				611ABF001B3CF4FC00B8706C /* NTESAvatarImageView.m in Sources */,
-				EE22FCE520B2D1B7005E26A1 /* LGAudioPlayer.m in Sources */,
 				AE5882EB1A6F47E10070536A /* main.m in Sources */,
 				EE42030C1FFE15410009D064 /* AttachDropMenu.m in Sources */,
 				EE42022C1FFE15400009D064 /* ACMediaModel.m in Sources */,
@@ -7847,8 +6952,6 @@
 				EE4203CC1FFE15420009D064 /* MMPopupWindow.m in Sources */,
 				EE42033A1FFE15410009D064 /* ProjectNewApplicationCell.m in Sources */,
 				EE4201A01FFE15400009D064 /* ZLPhotoPickerBrowserPhoto.m in Sources */,
-				EE3FFC742079CF83004CD2A9 /* qcsClassReviewInsideClassCell.m in Sources */,
-				EE2E003D207B78AD0062AB74 /* qcsClassDetailInsideJXKJCell.m in Sources */,
 				6185D2991BAAFBAF0046F90F /* NTESSettingCheckCell.m in Sources */,
 				EE4201F21FFE15400009D064 /* WHApplicationDetailItemCell.m in Sources */,
 				EE42025B1FFE15400009D064 /* RNewRecordController.m in Sources */,
@@ -7861,30 +6964,23 @@
 				EE4203121FFE15410009D064 /* SessionViewCell.m in Sources */,
 				61E471581B7D963E00F4A1BF /* NTESMutiClientsCell.m in Sources */,
 				EE4202021FFE15400009D064 /* WHStatisticsHouseHeaderView.m in Sources */,
-				EE22FCFB20B31995005E26A1 /* MBProgressHU_DDD.m in Sources */,
+				EEA8873922A0DC03004BA812 /* SDCollectionViewCell.m in Sources */,
 				EE42035C1FFE15410009D064 /* UILabel+Shake.m in Sources */,
 				EE4203D11FFE15420009D064 /* WFHudView.m in Sources */,
 				EE4202761FFE15400009D064 /* AttendanceRemarkCell.m in Sources */,
 				EE4203BB1FFE15410009D064 /* WFReplyBody.m in Sources */,
-				EE0BDBCF2091C27700AAD516 /* qcsStudyAnalyticsInsideController.m in Sources */,
 				61E4718B1B7D96AA00F4A1BF /* NTESClientUtil.m in Sources */,
 				EE4203241FFE15410009D064 /* ProjectNewApplicationController.m in Sources */,
-				EE2E00A3207E26720062AB74 /* qcsClassReviewSearchStudentController.m in Sources */,
 				EE42020C1FFE15400009D064 /* TYHTranscriptViewController.m in Sources */,
 				EE4202F41FFE15410009D064 /* ImageCollectionCell.m in Sources */,
 				EE4203921FFE15410009D064 /* TYHContactSchoolController.m in Sources */,
 				61E471071B7D963E00F4A1BF /* NTESSearchTeamViewController.m in Sources */,
-				EE2E00A8207F14630062AB74 /* qcsClassReviewInsideStudentController.m in Sources */,
-				EE3FFC6F2079B01B004CD2A9 /* SDCycleScrollView.m in Sources */,
 				EE4202ED1FFE15410009D064 /* SendModel.m in Sources */,
 				61E471671B7D963E00F4A1BF /* NTESSettingSwitcherCell.m in Sources */,
-				EE3FFC792079CF96004CD2A9 /* qcsClassReviewInsideStudentCell.m in Sources */,
-				EE22FCB120B2B322005E26A1 /* HProgressView.m in Sources */,
 				EE4202B71FFE15410009D064 /* AssetNetWorkHelper.m in Sources */,
 				EE4201BC1FFE15400009D064 /* HWListModel.m in Sources */,
 				EE42020D1FFE15400009D064 /* TranscriptHelper.m in Sources */,
 				EE4202E51FFE15410009D064 /* TYHNewNoticeViewController.m in Sources */,
-				EE2E009E207E1F710062AB74 /* qcsClassReviewSearchController.m in Sources */,
 				EE4203C81FFE15420009D064 /* MMAlertView.m in Sources */,
 				61E4710C1B7D963E00F4A1BF /* NTESTeamListViewController.m in Sources */,
 				EE42036E1FFE15410009D064 /* DriverDetailModel.m in Sources */,
@@ -7892,13 +6988,11 @@
 				834DC5C71F1C9F2A00C9E0B3 /* NTESJanKenPonAttachment.m in Sources */,
 				EE4202EF1FFE15410009D064 /* TeacherModel.m in Sources */,
 				EE4201781FFE15400009D064 /* MJPhotoToolbar.m in Sources */,
-				EE3FFC98207A018F004CD2A9 /* QCSNetHelper.m in Sources */,
 				EE4202921FFE15400009D064 /* TYHNewReceptionViewController.m in Sources */,
 				AE2AA6851A7CD35C00CFF013 /* UIView+NTES.m in Sources */,
 				EE4202381FFE15400009D064 /* MRADetailCell.m in Sources */,
 				E45E177A1CA8CB6200C4ED69 /* NTESLogUploader.m in Sources */,
 				EE4202D81FFE15410009D064 /* TYHTittleViewController.m in Sources */,
-				EE22FCF120B2D1B7005E26A1 /* amrFileCodec.m in Sources */,
 				EE4201A81FFE15400009D064 /* ZLPhotoAssets.m in Sources */,
 				61518A5A1CA234590061C4A9 /* NTESMainTabController.m in Sources */,
 				EE4202C91FFE15410009D064 /* TakeCourseBeignViewController.m in Sources */,
@@ -7934,20 +7028,16 @@
 				EE4201911FFE15400009D064 /* UIScrollView+TPKeyboardAvoidingAdditions.m in Sources */,
 				EE42014E1FFE15400009D064 /* UITabBar+redBadge.m in Sources */,
 				EE4201891FFE15400009D064 /* SUNSlideSwitchView.m in Sources */,
-				EE2E0099207E063C0062AB74 /* qcsClassDetailInsideXZTStudentCell.m in Sources */,
 				EE4202011FFE15400009D064 /* WHStatisticsHouseCountCell.m in Sources */,
 				611ABF041B3CF4FC00B8706C /* NTESMarginButton.m in Sources */,
 				61E4715E1B7D963E00F4A1BF /* NTESSessionListViewController.m in Sources */,
 				EE42015B1FFE15400009D064 /* UIImage+ColorAtPoint.m in Sources */,
 				61E4715F1B7D963E00F4A1BF /* NTESNoDisturbSettingViewController.m in Sources */,
 				EE4202B61FFE15400009D064 /* AssetModelHandler.m in Sources */,
-				EEAB0DD620AAC5130034DBE7 /* qcsHomeworkSearchController.m in Sources */,
 				EE4202C21FFE15410009D064 /* AssetMineApplyCell.m in Sources */,
 				834DC5C81F1C9F2A00C9E0B3 /* NTESRedPacketAttachment.m in Sources */,
 				EE4201DA1FFE15400009D064 /* WHOutResignController.m in Sources */,
-				EEAB0DE020AACECA0034DBE7 /* qcsHomeworkObjectController.m in Sources */,
 				EE42019E1FFE15400009D064 /* ZLCameraView.m in Sources */,
-				EE2E00B52080553B0062AB74 /* qcsClassReviewSearchTreeController.m in Sources */,
 				EE42025E1FFE15400009D064 /* TYHRecordController.m in Sources */,
 				EE4203D61FFE15420009D064 /* YMShowImageView.m in Sources */,
 				EE4201DE1FFE15400009D064 /* WHApplicationController.m in Sources */,
@@ -7963,7 +7053,6 @@
 				EE4203B81FFE15410009D064 /* MLLinkLabel.m in Sources */,
 				61E471431B7D963E00F4A1BF /* NTESFileTransSelectViewController.m in Sources */,
 				EE4202321FFE15400009D064 /* ETTextView.m in Sources */,
-				EEE0516820A58A5B00FAB68D /* qcsHomeworkReleaseController.m in Sources */,
 				EE4201AB1FFE15400009D064 /* ZLNavigationController.m in Sources */,
 				EE4201671FFE15400009D064 /* LXReorderableCollectionViewFlowLayout.m in Sources */,
 				61E4713E1B7D963E00F4A1BF /* NTESSessionWhiteBoardContentView.m in Sources */,
@@ -7977,11 +7066,9 @@
 				EE4201C81FFE15400009D064 /* WHCheckController.m in Sources */,
 				EE3A67A52011F63D001F1A8E /* ClassAttendanceModel.m in Sources */,
 				EE4202A21FFE15400009D064 /* AssetDiliverDetailController.m in Sources */,
-				EE2E00AD207F8E870062AB74 /* qcsClassReviewSearchCell.m in Sources */,
 				EE42018D1FFE15400009D064 /* SRSlimeView.m in Sources */,
 				EE42027C1FFE15400009D064 /* IDJCalendarUtil.mm in Sources */,
 				EE4201731FFE15400009D064 /* MJPhoto.m in Sources */,
-				EE95F2E0207218160067F2E2 /* QCSSourceHandler.m in Sources */,
 				E48988EB1DE42391001CF6C5 /* NTESSessionCustomContentConfig.m in Sources */,
 				EEB841F5201B325E00E7EF14 /* LLEyesLayer.m in Sources */,
 				EE4203D71FFE15420009D064 /* YMTableViewCell.m in Sources */,
@@ -8002,7 +7089,6 @@
 				EE4201721FFE15400009D064 /* ViewController+MASAdditions.m in Sources */,
 				EE4201F11FFE15400009D064 /* WHApplicationDetailHeaderView.m in Sources */,
 				EE4203291FFE15410009D064 /* TYHProjectController.m in Sources */,
-				EE0BDBE12091D2CB00AAD516 /* CWDrawerTransition.m in Sources */,
 				EE4201931FFE15400009D064 /* WebViewJavascriptBridge.m in Sources */,
 				EE42024C1FFE15400009D064 /* MRFeedBackScoreCell.m in Sources */,
 				EE4202431FFE15400009D064 /* RMPaiHeaderView.m in Sources */,
@@ -8010,6 +7096,7 @@
 				EE42029E1FFE15400009D064 /* AssetChooseTypeController.m in Sources */,
 				834DC5D91F1CD84700C9E0B3 /* NTESSessionRedPacketTipContentView.m in Sources */,
 				EE4202421FFE15400009D064 /* MRSAddFooterView.m in Sources */,
+				EEA8873B22A0DC03004BA812 /* TAPageControl.m in Sources */,
 				BD52DB3E1B8F300E00434D0E /* NTESCADisplayLinkHolder.m in Sources */,
 				EE42039B1FFE15410009D064 /* TYHUploadNewStateController.m in Sources */,
 				61EAD91B1B834E72005DC715 /* NTESUserListCell.m in Sources */,
@@ -8031,7 +7118,6 @@
 				83FDED671EFCBCA100C66EEA /* NTESRobotListViewController.m in Sources */,
 				EE4202401FFE15400009D064 /* TYHRepairItemCell.m in Sources */,
 				EE4203201FFE15410009D064 /* PInMainController.m in Sources */,
-				EE2E004C207DAC820062AB74 /* QCSClassDetailModel.m in Sources */,
 				EE42027D1FFE15400009D064 /* IDJChineseCalendar.mm in Sources */,
 				EE4202AE1FFE15400009D064 /* AssetMyAssetsDetailController.m in Sources */,
 				EE4203321FFE15410009D064 /* PApplyProjectApprovalCell.m in Sources */,
@@ -8040,13 +7126,11 @@
 				EE4201A71FFE15400009D064 /* ZLPhotoPickerCustomToolBarView.m in Sources */,
 				EE4827DD201882EB00605E1B /* CAEvaluateController.m in Sources */,
 				EE4203B41FFE15410009D064 /* NSString+MLExpression.m in Sources */,
-				EE0BDBE32091D2CB00AAD516 /* CWLateralSlideAnimator.m in Sources */,
 				EE42029A1FFE15400009D064 /* AssetApplyDetailController.m in Sources */,
 				617D015D1AEDE03900C6DB77 /* UIImage+NTESColor.m in Sources */,
 				EE4203731FFE15410009D064 /* PaiDetailModel.m in Sources */,
 				61EAD9081B82D0A2005DC715 /* NTESTextSettingCell.m in Sources */,
 				EE4203CB1FFE15420009D064 /* MMPopupView.m in Sources */,
-				EE95F2D82071DD5C0067F2E2 /* QCSchoolCommonItemCell.m in Sources */,
 				EE4203A51FFE15410009D064 /* TYHSettingsCell.m in Sources */,
 				EE4202CD1FFE15410009D064 /* TakeCourseHelper.m in Sources */,
 				E45E17811CA8CBA500C4ED69 /* NTESLogViewController.m in Sources */,
@@ -8062,8 +7146,6 @@
 				EE42034C1FFE15410009D064 /* PVisitRecordCell.m in Sources */,
 				EE4202CF1FFE15410009D064 /* TakeCourseModelHandler.m in Sources */,
 				61E471151B7D963E00F4A1BF /* NTESGroupedUsrInfo.m in Sources */,
-				EEB1ECB5209AF53E0005DAEB /* qcsStudyAnalyticStudentController.m in Sources */,
-				EE2E0049207C6BB70062AB74 /* QCSStasticModel.m in Sources */,
 				61E471961B7D96AA00F4A1BF /* NTESTimerHolder.m in Sources */,
 				EE4203B11FFE15410009D064 /* MLExpressionManager.m in Sources */,
 				EE4202AC1FFE15400009D064 /* AssetMyAssetsController.m in Sources */,
