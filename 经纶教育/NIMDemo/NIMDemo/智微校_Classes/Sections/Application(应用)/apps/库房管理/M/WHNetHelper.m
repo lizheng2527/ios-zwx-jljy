@@ -164,7 +164,7 @@
 -(void)getApplicationList:(void (^)(BOOL successful,NSMutableArray *dataSource))status failure:(void (^)(NSError *error))failure
 {
     NSString *requestURL = [NSString stringWithFormat:@"%@%@",k_V3ServerURL,url_OutList];
-    NSDictionary *dic = @{@"sys_auto_authenticate":@"true",@"sys_username":[NSString stringWithFormat:@"%@",userName],@"sys_password":password};
+    NSDictionary *dic = @{@"sys_auto_authenticate":@"true",@"sys_username":[NSString stringWithFormat:@"%@",userName],@"sys_password":password,@"operationCode":@"sr_warehouseManager"};
     
     [TYHHttpTool get:requestURL params:dic success:^(id json) {
         NSMutableArray *blockArray = [NSMutableArray arrayWithArray:[WHMyApplicationModel mj_objectArrayWithKeyValuesArray:[json objectForKey:@"gridModel"]]];
@@ -181,7 +181,7 @@
 -(void)getOutListWithPageNum:(NSString *)num andStatus:(void (^)(BOOL successful,NSMutableArray *dataSource))status failure:(void (^)(NSError *error))failure
 {
     NSString *requestURL = [NSString stringWithFormat:@"%@%@",k_V3ServerURL,url_getOutWarehouseList];
-    NSDictionary *dic = @{@"sys_auto_authenticate":@"true",@"sys_username":[NSString stringWithFormat:@"%@",userName],@"sys_password":password,@"id":userID,@"num":num};
+    NSDictionary *dic = @{@"sys_auto_authenticate":@"true",@"sys_username":[NSString stringWithFormat:@"%@",userName],@"sys_password":password,@"id":userID,@"num":num,@"operationCode":@"sr_personalApply"};
     [TYHHttpTool get:requestURL params:dic success:^(id json) {
         NSMutableArray *blockArray = [NSMutableArray arrayWithArray:[WHOutModel mj_objectArrayWithKeyValuesArray:json]];
         status(YES,blockArray);
@@ -213,9 +213,10 @@
 -(void)searchGetOutByUserName:(NSString *)username andStatus:(void (^)(BOOL successful,NSMutableArray *dataSource))status failure:(void (^)(NSError *error))failure
 {
     
+    
     NSString *requestURL = [NSString stringWithFormat:@"%@%@",k_V3ServerURL,url_searchByUserName];
     NSDictionary *dic = @{@"sys_auto_authenticate":@"true",@"sys_username":[NSString stringWithFormat:@"%@",userName],@"sys_password":password,@"userName":username};
-    [TYHHttpTool get:requestURL params:dic success:^(id json) {
+    [TYHHttpTool post:requestURL params:dic success:^(id json) {
         NSMutableArray *blockArray = [NSMutableArray arrayWithArray:[WHOutModel mj_objectArrayWithKeyValuesArray:json]];
         status(YES,blockArray);
     } failure:^(NSError *error) {
