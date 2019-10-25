@@ -18,4 +18,6 @@
 @property(nonatomic,retain)UITextField *textField;
 
 @property(nonatomic,assign)BOOL isEdited;
+
+@property(nonatomic,copy)NSString *type;
 @end

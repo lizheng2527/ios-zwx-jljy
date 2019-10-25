@@ -63,8 +63,8 @@
 
 //获取物品分类
 -(void)getGoodsKindList:(void (^)(BOOL successful,NSMutableArray *dataSource))status failure:(void (^)(NSError *error))failure;
-//获取物品分类的详情
--(void)getGoodsDetailListWithGoodsID:(NSString *)goodsId GoodsName:(NSString *)goodsName andStatus:(void (^)(BOOL successful,NSMutableArray *dataSource))status failure:(void (^)(NSError *error))failure;
+//获取物品分类的详情 type是标记从申领跳转还是从出库跳转到的查询页面
+-(void)getGoodsDetailListWithGoodsID:(NSString *)goodsId GoodsName:(NSString *)goodsName type:(NSString *)type andStatus:(void (^)(BOOL successful,NSMutableArray *dataSource))status failure:(void (^)(NSError *error))failure;
 
 //获取申领发放信息
 -(void)getApplyDiliverMainInfoWithApplyID:(NSString *)applyID andStatus:(void (^)(BOOL successful,WHMyApplicationDetailModel *model))status failure:(void (^)(NSError *error))failure;

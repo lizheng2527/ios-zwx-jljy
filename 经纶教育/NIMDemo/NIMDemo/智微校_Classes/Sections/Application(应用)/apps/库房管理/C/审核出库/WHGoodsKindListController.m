@@ -10,7 +10,7 @@
 
 #import "WHNetHelper.h"
 #import "WHGoodsModel.h"
-
+#import "NSString+Empty.h"
 #import <UIView+Toast.h>
 #import "WHGoodsDetailListController.h"
 #import "WHGoodsKindHeaderView.h"
@@ -50,6 +50,14 @@ static NSString *kHeaderIdentifier = @"WHGoodsKindHeaderView";
     }else goodsArray = [NSMutableArray array];
 }
 
+- (void)setType:(NSString *)type{
+    if ([NSString isBlankString:type]) {
+        type = @"999";
+    }else{
+        _type = type;
+    }
+}
+
 #pragma mark - DataRequest
 -(void)dataRequest
 {
@@ -87,6 +95,7 @@ static NSString *kHeaderIdentifier = @"WHGoodsKindHeaderView";
 -(void) toSearch{
     WHGoodsDetailListController *dlView = [WHGoodsDetailListController new];
     dlView.goodsID = @"search";
+    dlView.type = _type;
     dlView.tmpDataArray = [NSMutableArray arrayWithArray:_goodsArray];
     [self.navigationController pushViewController:dlView animated:YES];
 }
@@ -113,6 +122,7 @@ static NSString *kHeaderIdentifier = @"WHGoodsKindHeaderView";
     
     WHGoodsDetailListController *dlView = [WHGoodsDetailListController new];
     dlView.goodsID = model.goodsID;
+    dlView.type = _type;
     dlView.tmpDataArray = [NSMutableArray arrayWithArray:_goodsArray];
     [self.navigationController pushViewController:dlView animated:YES];
     
@@ -156,6 +166,7 @@ static NSString *kHeaderIdentifier = @"WHGoodsKindHeaderView";
 {
     WHGoodsDetailListController *dlView = [WHGoodsDetailListController new];
     dlView.goodsID = headerView.model.goodsID;
+    dlView.type = _type;
     dlView.tmpDataArray = [NSMutableArray arrayWithArray:_goodsArray];
     [self.navigationController pushViewController:dlView animated:YES];
 }

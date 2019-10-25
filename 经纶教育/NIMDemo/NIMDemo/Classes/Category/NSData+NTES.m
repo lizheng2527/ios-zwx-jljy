@@ -24,5 +24,19 @@
             ];
 }
 
++ (int)compareDate:(NSString*)date01 withDate:(NSString*)date02{
+    
+    NSDateFormatter *dateFormatter = [[NSDateFormatter alloc] init];
+    [dateFormatter setDateFormat:@"HH:mm"];
+    NSDate *dateA = [dateFormatter dateFromString:date01];
+    NSDate *dateB = [dateFormatter dateFromString:date02];
+    double result = [dateA timeIntervalSinceDate:dateB];
+    if (result < 0) {
+        NSLog(@"Date1  is in the future");
+        return 1;
+    }
+    return 0;
+    
+}
 
 @end

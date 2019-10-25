@@ -305,9 +305,10 @@
 
 #pragma mark - AddGoods
 - (IBAction)addGoodsAction:(id)sender {
-    
+    //出库物品跳转
     WHGoodsKindListController *klView = [WHGoodsKindListController new];
     klView.goodsArray = [NSMutableArray arrayWithArray:_dataArray];
+    klView.type = @"999";//标记从出库跳转到选择页面
     [self.navigationController pushViewController:klView animated:YES];
     
 }

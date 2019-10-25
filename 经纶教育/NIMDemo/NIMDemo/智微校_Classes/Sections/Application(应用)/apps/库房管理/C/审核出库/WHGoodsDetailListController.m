@@ -34,11 +34,14 @@
     }else{
         _isEdited = NO;
     }
+
     [self initView];
     [self createBarItem];
     if (![@"search" isEqualToString:_goodsID]) {
         [self dataRequestWithGoodsID:_goodsID GoodsName:@"" ];
     }
+    
+    
 }
 
 -(void)setTmpDataArray:(NSMutableArray *)tmpDataArray
@@ -60,8 +63,21 @@
         MBProgressHUD *hud = [MBProgressHUD showHUDAddedTo:self.view animated:YES];
         hud.labelFont = [UIFont systemFontOfSize:12];
         hud.labelText = @"正在获取数据";
-        [helper getGoodsDetailListWithGoodsID:goodsID GoodsName:goodName andStatus:^(BOOL successful, NSMutableArray *dataSource) {
+    
+    [helper getGoodsDetailListWithGoodsID:goodsID GoodsName:goodName type:_type andStatus:^(BOOL successful, NSMutableArray *dataSource) {
             _dataArray = [NSMutableArray arrayWithArray:dataSource];
+        
+        UILabel *emptyLabel = [[UILabel alloc] initWithFrame:CGRectMake([UIScreen mainScreen].bounds.size.width/2-100 , [UIScreen mainScreen].bounds.size.height/2-100, 200, 50)];
+        if (![_dataArray count]) {
+            
+            emptyLabel.text = @"暂无数据";
+            [emptyLabel setTextAlignment:NSTextAlignmentCenter];
+            [emptyLabel setFont:[UIFont systemFontOfSize:12]];
+            emptyLabel.backgroundColor = UIColor.whiteColor;
+            [self.view addSubview:emptyLabel];
+        }else{
+            [self.view willRemoveSubview:emptyLabel];
+        }
             [_mainTableView reloadData];
             [hud removeFromSuperview];
             

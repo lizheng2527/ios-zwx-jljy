@@ -452,12 +452,12 @@
 }
 
 //获取物品分类的详情
--(void)getGoodsDetailListWithGoodsID:(NSString *)goodsId GoodsName:(NSString *)goodsName andStatus:(void (^)(BOOL successful,NSMutableArray *dataSource))status failure:(void (^)(NSError *error))failure
+-(void)getGoodsDetailListWithGoodsID:(NSString *)goodsId GoodsName:(NSString *)goodsName type:(NSString *)type andStatus:(void (^)(BOOL successful,NSMutableArray *dataSource))status failure:(void (^)(NSError *error))failure
 {
     
     NSString *requestURL = [NSString stringWithFormat:@"%@%@",k_V3ServerURL,url_goodsDetailInfoList];
-    NSDictionary *dic = @{@"sys_auto_authenticate":@"true",@"sys_username":[NSString stringWithFormat:@"%@",userName],@"sys_password":password,@"id":goodsId.length?goodsId:@"",@"model.name":goodsName.length?goodsName:@"",@"operationCode":@"sr_personalApply"};
-    [TYHHttpTool get:requestURL params:dic success:^(id json) {
+    NSDictionary *dic = @{@"sys_auto_authenticate":@"true",@"sys_username":[NSString stringWithFormat:@"%@",userName],@"sys_password":password,@"id":goodsId.length?goodsId:@"",@"model.name":goodsName.length?goodsName:@"",@"operationCode":@"sr_personalApply",@"type":type};
+    [TYHHttpTool post:requestURL params:dic success:^(id json) {
         NSMutableArray *blockArray = [NSMutableArray arrayWithArray:[WHGoodsDetailModel mj_objectArrayWithKeyValuesArray:[json objectForKey:@"gridModel"]]];
         
         for (WHGoodsDetailModel *model in blockArray) {
@@ -465,9 +465,6 @@
             model.itemId = model.goodsID;
             model.sum = 0;
         }
-
-        
-        
         status(YES,blockArray);
     } failure:^(NSError *error) {
         status(NO,[NSMutableArray array]);

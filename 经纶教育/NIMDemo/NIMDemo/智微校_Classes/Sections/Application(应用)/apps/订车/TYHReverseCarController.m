@@ -18,6 +18,7 @@
 #import <UIView+Toast.h>
 #import <MJRefresh.h>
 #import "TYHChoosePlaceController.h"
+#import "NSData+NTES.h"
 
 #define kWidth self.view.frame.size.width
 #define kWindow  [UIApplication sharedApplication].keyWindow
@@ -167,7 +168,7 @@ static int b;
         if (view.tag == 1003 && [NSString isBlankString:self.userCount]) {
             [view.label shake];
         }
-        
+       
         if (self.arrayView2.count > 0) {
             
             for (LTView * view in self.arrayView2) {
@@ -178,7 +179,7 @@ static int b;
                 } else if (view.tag == 1011 + 1 && [NSString isBlankString:self.backCount]) {
                     [view.label shake];
                 }
-                if ([NSString isBlankString:self.hoursDetailBack] || [NSString isBlankString:self.backAddress]|| [NSString isBlankString:self.backCount]|| [NSString isBlankString:self.address] || [NSString isBlankString:self.userCount]|| [NSString isBlankString:self.hoursDetail]) {
+                if ([NSString isBlankString:self.hoursDetailBack] || [NSString isBlankString:self.backAddress]|| [NSString isBlankString:self.backCount]|| [NSString isBlankString:self.address] || [NSString isBlankString:self.userCount]|| [NSString isBlankString:self.hoursDetail]| [NSString      isBlankString:self.reason]|| [NSString    isBlankString:self.hourArriveDetailBack]|| [NSString    isBlankString:self.dateDetail]|| [NSString    isBlankString:self.backCount]) {
                 
                     [self.view makeToast:@"缺少必填内容" duration:1 position:nil];
                     
@@ -186,17 +187,26 @@ static int b;
                 }
             }
         } else {
-        
-            if ([NSString isBlankString:self.address] || [NSString isBlankString:self.userCount]|| [NSString isBlankString:self.hoursDetail]) {
-    
+            if ([NSString isBlankString:self.address] || [NSString isBlankString:self.hoursDetail]|| [NSString      isBlankString:self.reason]|| [NSString    isBlankString:self.hourArriveDetailBack]|| [NSString    isBlankString:self.dateDetail]|| [NSString    isBlankString:self.userCount] ) {
                 [self.view makeToast:@"缺少必填内容" duration:1 position:nil];
                 return;
             }
+          
+     
         }
-
     }
     
+    if (self.reason.length < 9) {
+        [self.view makeToast:@"用车原因不能小于8个字" duration:1 position:nil];
+        return;
+    }
+    int i =  [NSData compareDate:self.hoursDetail withDate:self.hourArriveDetailBack];
     
+    if(i != 1){
+        [self.view makeToast:@"到达时间不能早于出发时间" duration:1 position:nil];
+        return;
+    }
+
     UIWindow * window = [UIApplication sharedApplication].keyWindow;
     MBProgressHUD * hub = [[MBProgressHUD alloc] initWithView:self.view];
     hub.alpha = 0.5;
@@ -222,11 +232,10 @@ static int b;
     params[@"address"] = self.address;
     params[@"userCount"] = self.userCount;
     params[@"dataSourceName"] = dataSourceName;
-    
+    params[@"reason"] = self.reason;
     
     // 选填
     params[@"personList"] = self.personList;
-    params[@"reason"] = self.reason;
     params[@"instruction"] = self.instruction;
     params[@"startTime"] = self.hoursDetail;
     
@@ -280,6 +289,10 @@ static int b;
     }
     return _arrayView;
 }
+
+
+
+
 #pragma mark === 创建子控件
 - (void)setupSubview {
     
@@ -392,7 +405,7 @@ static int b;
                 button.contentHorizontalAlignment = UIControlContentHorizontalAlignmentLeft;
                 button.titleEdgeInsets = UIEdgeInsetsMake(0,0, 0, 0);
                 [button setTitleColor:[UIColor lightGrayColor] forState:(UIControlStateNormal)];
-                [button setTitle:@"选择时间" forState:(UIControlStateNormal)];
+                [button setTitle:@"选择时间(必填)" forState:(UIControlStateNormal)];
                 [button addTarget:self action:@selector(selectDate2:) forControlEvents:(UIControlEventTouchUpInside)];
                 button.tag = 1001;
                 self.hourBtn = button;
@@ -406,7 +419,7 @@ static int b;
                 button.contentHorizontalAlignment = UIControlContentHorizontalAlignmentLeft;
                 button.titleEdgeInsets = UIEdgeInsetsMake(0,0, 0, 0);
                 [button setTitleColor:[UIColor lightGrayColor] forState:(UIControlStateNormal)];
-                [button setTitle:@"选择时间(选填)" forState:(UIControlStateNormal)];
+                [button setTitle:@"选择时间(必填)" forState:(UIControlStateNormal)];
                 [button addTarget:self action:@selector(selectDate2:) forControlEvents:(UIControlEventTouchUpInside)];
                 button.tag = 8001;
                 self.hourBtnArrive = button;
@@ -419,13 +432,21 @@ static int b;
                 [view addSubview:button];
                 button.contentHorizontalAlignment = UIControlContentHorizontalAlignmentLeft;
                 button.titleEdgeInsets = UIEdgeInsetsMake(0,0, 0, 0);
-                [button setTitleColor:[UIColor darkGrayColor] forState:(UIControlStateNormal)];
-                
+                [button setTitleColor:[UIColor lightGrayColor] forState:(UIControlStateNormal)];
+                [button setTitle:@"到达地点(必填)" forState:(UIControlStateNormal)];
                 [button addTarget:self action:@selector(choosePalce:) forControlEvents:(UIControlEventTouchUpInside)];
 //                button.tag = 1004;
+                
                 self.placeBtn = button;
                 
-            } else if (i == 6 || i == 7 || i == 5) {
+                
+            }else if(i == 6 ){
+                view.textField.placeholder = @"必填(不少于8个文字)";
+            }
+            else if(i == 4){
+                view.textField.placeholder =  @"必填";
+            }
+            else if (i == 7 || i == 5) {
                 
                 view.textField.placeholder = @"选填";
                 
@@ -605,7 +626,7 @@ static int b;
                 button.contentHorizontalAlignment = UIControlContentHorizontalAlignmentLeft;
                 button.titleEdgeInsets = UIEdgeInsetsMake(0,0, 0, 0);
                 [button setTitleColor:[UIColor lightGrayColor] forState:(UIControlStateNormal)];
-                [button setTitle:@"选择时间" forState:(UIControlStateNormal)];
+                [button setTitle:@"选择时间(必填)" forState:(UIControlStateNormal)];
                 [button addTarget:self action:@selector(selectDate2:) forControlEvents:(UIControlEventTouchUpInside)];
                 button.tag = 1003;
                 self.hourBtnBack = button;
@@ -817,7 +838,7 @@ static int b;
                 [self.hourBtnBack setTitle:self.hoursDetailBack forState:(UIControlStateNormal)];
             } else {
                 
-                [self.hourBtnBack setTitle:@"选择时间" forState:(UIControlStateNormal)];
+                [self.hourBtnBack setTitle:@"选择时间(必填)" forState:(UIControlStateNormal)];
                 [self.view makeToast:@"返程时间不能早于出发时间" duration:2 position:nil];
             }
         }

@@ -330,8 +330,10 @@
 }
 
 - (IBAction)addGoodsAction:(id)sender {
+    //申领添加物品跳转
     WHGoodsKindListController *klView = [WHGoodsKindListController new];
     klView.goodsArray = [NSMutableArray arrayWithArray:_dataArray];
+    klView.type = @"0";//标记从申领跳转到选择页面
     [self.navigationController pushViewController:klView animated:YES];
 }
 

@@ -10,4 +10,5 @@
 
 @interface NSData (NTES)
 - (NSString *)MD5String;
++(int)compareDate:(NSString*)date01 withDate:(NSString*)date02;
 @end

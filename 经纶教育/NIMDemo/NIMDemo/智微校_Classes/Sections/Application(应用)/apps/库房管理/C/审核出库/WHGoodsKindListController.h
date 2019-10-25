@@ -12,4 +12,5 @@
 @property (weak, nonatomic) IBOutlet UITableView *mainTableView;
 
 @property(nonatomic,retain)NSMutableArray *goodsArray;
+@property(nonatomic,copy)NSString *type;
 @end
