@@ -43,15 +43,20 @@
 - (void)setScale:(CGFloat)scale
 {
     _scale = scale;
-    
+
     //      R G B
     // 默认：0.4 0.6 0.7  // 默认黑色 0 0 0
     // 红色：1   0   0   // Red Green Blue
-    
+
     CGFloat red = XMGRed * scale;
     CGFloat green = XMGGreen * scale;
     CGFloat blue = XMGBlue * scale;
-    self.textColor = [UIColor colorWithRed:red green:green blue:blue alpha:1.0];
+    if (self) {
+         self.textColor = [UIColor colorWithRed:red green:green blue:blue alpha:1.0];
+    }else{
+        NSLog(@"=================self");
+    }
+
     if (_labelType == 2) {
         //        2代表资产管理的变色label
         CGFloat red1 = (19.0/255) * scale;
@@ -59,7 +64,7 @@
         CGFloat blue1 = (218.0/255) * scale;
         self.textColor = [UIColor colorWithRed:red1 green:green1 blue:blue1 alpha:1.0];
     }
-    
+
     // 大小缩放比例
     CGFloat transformScale = 1 + scale * 0; // [1, 1.2]
     self.transform = CGAffineTransformMakeScale(transformScale, transformScale);

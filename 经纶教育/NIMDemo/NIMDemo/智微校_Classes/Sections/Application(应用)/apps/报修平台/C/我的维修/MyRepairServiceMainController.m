@@ -246,21 +246,21 @@ static CGFloat labelW;
     
     CGFloat scale = scrollView.contentOffset.x / scrollView.frame.size.width;
     if (scale < 0 || scale > self.topScrollView.subviews.count - 1) return;
-    
+
     // 获得需要操作的左边label
     NSInteger leftIndex = scale;
     TYHHomeLabel *leftLabel = self.topScrollView.subviews[leftIndex];
-    
+
     //获得需要操作的右边label
     NSInteger rightIndex = leftIndex + 1;
-    
+
     TYHHomeLabel *rightLabel = (rightIndex == self.topScrollView.subviews.count) ? nil : self.topScrollView.subviews[rightIndex];
-    
+
     // 右边比例
     CGFloat rightScale = scale - leftIndex;
     // 左边比例
     CGFloat leftScale = 1 - rightScale;
-    
+
     // 设置label的比例
     [(TYHHomeLabel *)leftLabel setScale:(CGFloat)leftScale];
     //  在 topScrollViewView 上的 UIImageView 不知道是怎么出来的
@@ -269,7 +269,12 @@ static CGFloat labelW;
             return;
         }
     }
-    [(TYHHomeLabel *)rightLabel setScale:(CGFloat)rightScale];
+
+//        [(TYHHomeLabel *)rightLabel setScale:(CGFloat)rightScale];
+
+ 
+    
+   
 }
 
 

@@ -206,7 +206,6 @@
 		EE3A67A52011F63D001F1A8E /* ClassAttendanceModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EE3A67A42011F63D001F1A8E /* ClassAttendanceModel.m */; };
 		EE3B270A1FFE2BBC00DA5F6F /* libresolv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = EE3B27091FFE2BBC00DA5F6F /* libresolv.tbd */; };
 		EE3B270D1FFE2CEF00DA5F6F /* libicucore.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = EE3B270C1FFE2CEF00DA5F6F /* libicucore.tbd */; };
-		EE3B270F1FFE2D0900DA5F6F /* libstdc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = EE3B270E1FFE2D0900DA5F6F /* libstdc++.tbd */; };
 		EE3B27121FFE2D2200DA5F6F /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = EE3B27111FFE2D2200DA5F6F /* libsqlite3.tbd */; };
 		EE4201491FFE153F0009D064 /* NTESUITextField.m in Sources */ = {isa = PBXBuildFile; fileRef = EE42FBDE1FFE153E0009D064 /* NTESUITextField.m */; };
 		EE42014A1FFE153F0009D064 /* NSObject+SXRuntime.m in Sources */ = {isa = PBXBuildFile; fileRef = EE42FBE11FFE153E0009D064 /* NSObject+SXRuntime.m */; };
@@ -1260,7 +1259,6 @@
 		EE3B27091FFE2BBC00DA5F6F /* libresolv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libresolv.tbd; path = usr/lib/libresolv.tbd; sourceTree = SDKROOT; };
 		EE3B270B1FFE2BC800DA5F6F /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = System/Library/Frameworks/UserNotifications.framework; sourceTree = SDKROOT; };
 		EE3B270C1FFE2CEF00DA5F6F /* libicucore.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libicucore.tbd; path = usr/lib/libicucore.tbd; sourceTree = SDKROOT; };
-		EE3B270E1FFE2D0900DA5F6F /* libstdc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.tbd"; path = "usr/lib/libstdc++.tbd"; sourceTree = SDKROOT; };
 		EE3B27101FFE2D1100DA5F6F /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		EE3B27111FFE2D2200DA5F6F /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 		EE4200001FFE153F0009D064 /* NSString+Empty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Empty.m"; sourceTree = "<group>"; };
@@ -2510,7 +2508,6 @@
 				EE3B27121FFE2D2200DA5F6F /* libsqlite3.tbd in Frameworks */,
 				EE4203F01FFE15420009D064 /* ShareSDKUI.framework in Frameworks */,
 				EE3B270D1FFE2CEF00DA5F6F /* libicucore.tbd in Frameworks */,
-				EE3B270F1FFE2D0900DA5F6F /* libstdc++.tbd in Frameworks */,
 				AEA87FE11A81CAD600ACC3BA /* AVFoundation.framework in Frameworks */,
 				EE4203ED1FFE15420009D064 /* ShareSDK.framework in Frameworks */,
 				61CF576F1A787DB000B43072 /* MobileCoreServices.framework in Frameworks */,
@@ -2537,7 +2534,6 @@
 			children = (
 				EE3B27111FFE2D2200DA5F6F /* libsqlite3.tbd */,
 				EE3B27101FFE2D1100DA5F6F /* JavaScriptCore.framework */,
-				EE3B270E1FFE2D0900DA5F6F /* libstdc++.tbd */,
 				EE3B270C1FFE2CEF00DA5F6F /* libicucore.tbd */,
 				EE3B270B1FFE2BC800DA5F6F /* UserNotifications.framework */,
 				EE3B27091FFE2BBC00DA5F6F /* libresolv.tbd */,
