@@ -16,7 +16,7 @@
 #import "TYHContactDetailCell.h"
 #import "InviteJoinListViewCell.h"
 #import "NTESPersonalCardViewController.h"
-@interface TYHContacterListController ()<UITableViewDelegate,UITableViewDataSource,UISearchBarDelegate,UISearchDisplayDelegate>
+@interface TYHContacterListController ()<UITableViewDelegate,UITableViewDataSource,UISearchBarDelegate,UISearchResultsUpdating>
 @property(nonatomic,retain)NSMutableArray *ListArray;
 @property(nonatomic,retain)NSMutableArray *IndexArray;
 
@@ -27,7 +27,8 @@
 @property (strong, nonatomic) NSArray *indexList;
 
 @property (nonatomic, strong) UISearchBar *mySearchBar;
-@property (nonatomic, strong) UISearchDisplayController *mySearchDisplayController;
+//@property (nonatomic, strong) UISearchDisplayController *mySearchDisplayController;
+@property (nonatomic, strong) UISearchController *searchController;
 @end
 
 @implementation TYHContacterListController
@@ -161,7 +162,7 @@
 #pragma mark-TableView Datasource&Delegate
 -(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    if (tableView == _mySearchDisplayController.searchResultsTableView) {
+    if (self.searchController.active) {
         
         static NSString *myCell = @"InviteJoinListViewCellidentifier";
         
@@ -225,7 +226,7 @@
 {
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
     
-    if (tableView == _mySearchDisplayController.searchResultsTableView) {
+    if (self.searchController.active) {
         UserModel * model = searchResultArray[indexPath.row];
         self.navigationController.navigationBar.translucent = YES;
         [self addFriend:model.accId.length?model.accId:@""];
@@ -307,7 +308,7 @@
 
 //返回行缩进 有三个方法一起配合使用才生效
 -(NSInteger)tableView:(UITableView *)tableView indentationLevelForRowAtIndexPath:(NSIndexPath *)indexPath{
-    if ([tableView isEqual:_mySearchDisplayController.searchResultsTableView]) {
+    if (self.searchController.active) {
         return 0;
     }
     
@@ -334,7 +335,7 @@
 
 -(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-    if(tableView == _mySearchDisplayController.searchResultsTableView){
+    if(self.searchController.active){
         return searchResultArray.count;
     }
     else if (isIndexList) {
@@ -358,7 +359,7 @@
 
 -(CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    if (tableView == _mySearchDisplayController.searchResultsTableView) {
+    if (self.searchController.active) {
         return  50;
     }
     else if (isIndexList) {
@@ -524,72 +525,60 @@ titleForHeaderInSection:(NSInteger)section
 // 初始化 搜索框
 -(void)initMysearchBarAndMysearchDisPlay
 {
-    _mySearchBar = [[UISearchBar alloc] initWithFrame:CGRectMake(0, 0,[UIScreen mainScreen].bounds.size.width * 320 ,40)];
-    _mySearchBar.delegate = self;
-    [_mySearchBar setAutocapitalizationType:UITextAutocapitalizationTypeNone];
-    _mainTableview.tableHeaderView = _mySearchBar;
-    _mySearchDisplayController = [[UISearchDisplayController alloc] initWithSearchBar:_mySearchBar contentsController:self];
-    _mySearchDisplayController.delegate = self;
-    _mySearchDisplayController.searchResultsDataSource = self;
-    _mySearchDisplayController.searchResultsDelegate = self;
-    _mySearchDisplayController.searchResultsTableView.tableFooterView = [[UIView alloc]initWithFrame:CGRectZero];
-    _mySearchDisplayController.searchResultsTableView.tableHeaderView= [[UIView alloc]initWithFrame:CGRectZero];
+
+    _searchController = [[UISearchController alloc] initWithSearchResultsController:nil];
+     
+    _searchController.searchResultsUpdater = self;
+     
+    _searchController.dimsBackgroundDuringPresentation = NO;
+     
+    _searchController.hidesNavigationBarDuringPresentation = NO;
+     
+    _searchController.searchBar.frame = CGRectMake(self.searchController.searchBar.frame.origin.x, self.searchController.searchBar.frame.origin.y, self.searchController.searchBar.frame.size.width, 44.0);
+     
+    _mainTableview.tableHeaderView = self.searchController.searchBar;
 }
-
-- (void)filterContentForSearchText:(NSString*)searchText scope:(NSString*)scope {
-    
-    searchResultArray = [NSMutableArray array];
-    
-    NSUInteger searchOptions = NSCaseInsensitiveSearch | NSDiacriticInsensitiveSearch;
-    NSMutableArray *tempResults = [NSMutableArray array];
-    
-    //去重
-    NSMutableDictionary *dic = [NSMutableDictionary dictionary];
-    for (UserModel *model in searchResultsModelArray) {
-        [dic setObject:model.name forKey:model.accId];
-    }
-    NSMutableArray *tmpModelArray = [NSMutableArray array];
-    for (NSString *string in dic.allKeys) {
-        UserModel *model = [UserModel new];
-        model.accId = string;
-        [tmpModelArray addObject:model];
-    }
-    [tmpModelArray enumerateObjectsUsingBlock:^(id  _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
-        UserModel *model = obj;
-        model.name = dic.allValues[idx];
-    }];
-    searchResultsModelArray = [NSMutableArray arrayWithArray:tmpModelArray];
-    //去重结束
-    
-    for (UserModel *model in searchResultsModelArray) {
-        NSString *storeString = model.name;
-        NSRange storeRange = NSMakeRange(0, storeString.length);
-        NSRange foundRange = [storeString rangeOfString:searchText options:searchOptions range:storeRange];
-        if (foundRange.length) {
-            [tempResults addObject:model];
-        }
-    }
-    NSMutableArray *arry = [NSMutableArray array];
-    [arry addObjectsFromArray:tempResults];
-    searchResultArray = [NSMutableArray arrayWithArray:arry];
-}
-
-
-
-#pragma mark - UISearchDisplayController delegate methods
--(BOOL)searchDisplayController:(UISearchDisplayController *)controller  shouldReloadTableForSearchString:(NSString *)searchString {
-    
-    [self filterContentForSearchText:searchString  scope:[[self.searchDisplayController.searchBar scopeButtonTitles]  objectAtIndex:[self.searchDisplayController.searchBar                                                      selectedScopeButtonIndex]]];
-    
-    return YES;
-    
-}
-
-- (BOOL)searchDisplayController:(UISearchDisplayController *)controller  shouldReloadTableForSearchScope:(NSInteger)searchOption {
-    
-    [self filterContentForSearchText:[self.searchDisplayController.searchBar text] scope:[[self.searchDisplayController.searchBar scopeButtonTitles] objectAtIndex:searchOption]];
-    
-    return YES;
+-(void)updateSearchResultsForSearchController:(UISearchController *)searchController {
+     
+    NSString *searchString = [self.searchController.searchBar text];
+     
+     searchResultArray = [NSMutableArray array];
+       
+       NSUInteger searchOptions = NSCaseInsensitiveSearch | NSDiacriticInsensitiveSearch;
+       NSMutableArray *tempResults = [NSMutableArray array];
+       
+       //去重
+       NSMutableDictionary *dic = [NSMutableDictionary dictionary];
+       for (UserModel *model in searchResultsModelArray) {
+           [dic setObject:model.name forKey:model.accId];
+       }
+       NSMutableArray *tmpModelArray = [NSMutableArray array];
+       for (NSString *string in dic.allKeys) {
+           UserModel *model = [UserModel new];
+           model.accId = string;
+           [tmpModelArray addObject:model];
+       }
+       [tmpModelArray enumerateObjectsUsingBlock:^(id  _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
+           UserModel *model = obj;
+           model.name = dic.allValues[idx];
+       }];
+       searchResultsModelArray = [NSMutableArray arrayWithArray:tmpModelArray];
+       //去重结束
+       
+       for (UserModel *model in searchResultsModelArray) {
+           NSString *storeString = model.name;
+           NSRange storeRange = NSMakeRange(0, storeString.length);
+           NSRange foundRange = [storeString rangeOfString:searchString options:searchOptions range:storeRange];
+           if (foundRange.length) {
+               [tempResults addObject:model];
+           }
+       }
+       NSMutableArray *arry = [NSMutableArray array];
+       [arry addObjectsFromArray:tempResults];
+       searchResultArray = [NSMutableArray arrayWithArray:arry];
+    //刷新表格
+ 
+    [_mainTableview reloadData];
 }
 
 //searchBar开始编辑时改变取消按钮的文字
@@ -636,17 +625,13 @@ titleForHeaderInSection:(NSInteger)section
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+    
 }
 
-/*
-#pragma mark - Navigation
 
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+
+- (void)viewDidDisappear:(BOOL)animated{
+    self.searchController.active = FALSE;
 }
-*/
 
 @end

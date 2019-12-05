@@ -116,7 +116,7 @@
 //    NSString *myVoipAccount = [DemoGlobalClass sharedInstance].userName;
     
     NSString *organizationId = [[NSUserDefaults standardUserDefaults]valueForKey:USER_DEFAULT_ORIGANIZATION_ID];
-    NSString *ContactUrl = [BaseURL stringByAppendingString:[NSString stringWithFormat:@"/bd/user/serachUserWithParam?sys_username=%@&sys_auto_authenticate=true&sys_password=%@&organizationId=%@&name=%@",userName,passWord,organizationId,keyWord]];
+    NSString *ContactUrl = [BaseURL stringByAppendingString:[NSString stringWithFormat:@"/bd/user/serachUserWithParam?sys_username=%@%@%@&sys_auto_authenticate=true&sys_password=%@&organizationId=%@&name=%@",userName,@"%2C",organizationId,passWord,organizationId,keyWord]];
 
     AFHTTPRequestOperationManager *manager = [AFHTTPRequestOperationManager manager];
     [manager.responseSerializer setAcceptableContentTypes: [NSSet setWithObjects:@"application/json", @"text/json", @"text/javascript",@"text/html",@"text/css", @"text/plain",nil]];
